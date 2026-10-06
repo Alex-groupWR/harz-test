@@ -1,0 +1,35 @@
+.container-fluid .cabinet-block {
+	position: relative;
+	padding-top: 170px;
+	padding-bottom: 155px;
+}
+
+.container-fluid .cabinet-block .btn-primary {
+	background-color: var(--harzlabs_base_dark);
+	border-color: var(--harzlabs_base_dark);
+}
+
+.container-fluid .cabinet-block a {
+	color: var(--harzlabs_base);
+}
+
+.sale-personal-order-detail-block-information-field a {
+	text-decoration: underline;
+}
+
+.container-fluid .cabinet-block h3 {
+	font-size: 1.4rem;
+	padding-bottom: 1rem;
+}
+
+.container-fluid .cabinet-block .bx-authform-content-container {
+	padding-bottom: 1rem;
+}
+
+.container-fluid .cabinet-block .bx-authform-link-container {
+
+}
+
+.container-fluid .cabinet-block .btn-primary {
+	margin-top: 16px;
+}

@@ -1,0 +1,35 @@
+{
+    "name": "your-vendor/bitrix-aws-module",
+    "description": "Bitrix module for AWS services with JWT authentication",
+    "type": "bitrix-module",
+    "require": {
+        "php": "^8.2",
+        "aws/aws-sdk-php": "^3.359",
+        "firebase/php-jwt": "^6.11",
+        "web-token/jwt-framework": "^4.1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "config": {
+        "vendor-dir": "vendor",
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\BitrixAwsModule\\": "lib/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php -r \"if (file_exists('vendor/autoload.php')) { include 'vendor/autoload.php'; }\""
+        ]
+    }
+}

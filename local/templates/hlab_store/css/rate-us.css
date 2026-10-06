@@ -1,0 +1,487 @@
+.rate-us {
+
+}
+
+.rate-us__title {
+    color: #40344A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88%;
+    letter-spacing: 0.96px;
+    margin-bottom: 17px;
+}
+
+.rate-us__descr {
+    color: #40344A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.28px;
+    margin-bottom: 36px;
+}
+
+.rate-us__radio-buttons {
+    display: flex;
+    gap: 24px;
+}
+
+/*.form-control + .form-control {*/
+/*    margin-top: 1em;*/
+/*}*/
+
+.rate-us__form-control:focus-within {
+    color: var(--form-control-color);
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    font: inherit;
+    /* color: currentColor; */
+    width: 18px;
+    height: 18px;
+    border: 1px solid #898989;
+    border-radius: 50%;
+    /*transform: translateY(-0.075em);*/
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+}
+
+/*input[type="radio"]:checked::before {*/
+/*    transform: scale(1);*/
+/*}*/
+
+
+input[type="radio"]:checked {
+    border: 7px solid #8553AD;
+}
+
+input[type="radio"]:hover {
+    border: 7px solid #8553AD;
+    opacity: 0.8;
+}
+
+input[type="radio"]:focus {
+    outline: initial;
+    outline-offset: initial;
+}
+
+.rate-us__mini-title {
+    color: #40344A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    margin-bottom: 12px;
+}
+
+.rate-us__form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rate-us__label {
+    color: #40344A;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+}
+
+.rate-us__form {
+    max-width: 480px;
+}
+
+.rate-us__mini-section {
+    border-bottom: 1px solid #40344A;
+    padding-bottom: 36px;
+    margin-bottom: 36px;
+}
+
+.input-file-row {
+    display: inline-block;
+}
+.input-file {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.rate-us__file-title {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    transition: opacity 0.5s;
+
+    border-radius: 4px;
+    border: 1px solid #40344A;
+    background: transparent;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    color: #40344A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.28px;
+}
+
+.rate-us__file-title:hover,
+.rate-us__btn:hover {
+    opacity: 0.8;
+}
+
+.rate-us__btn {
+    display: flex;
+    padding: 24px 28px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 70px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.28px;
+    background: #8553AD;
+    color: #FFF;
+}
+
+.rate-us__btn:disabled {
+    cursor: default;
+    color: #40344A;
+    background: #F1F1F1;
+}
+
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+/* Focus */
+/*.input-file input[type=file]:focus + span {*/
+/*    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);*/
+/*}*/
+
+/* Hover/Active */
+/*.input-file:hover span {*/
+/*    background-color: #59be6e;*/
+/*}*/
+/*.input-file:active span {*/
+/*    background-color: #2E703A;*/
+/*}*/
+
+/* Disabled */
+.input-file input[type=file]:disabled + span {
+    background-color: #eee;
+}
+
+/* Список файлов */
+/*.input-file-list {*/
+/*    padding: 10px 0;*/
+/*}*/
+/*.input-file-list-item {*/
+/*    margin-bottom: 10px;*/
+/*}*/
+.rate-us__file-descr {
+    color: #40344A;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+.input-file-list-remove {
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.rate-us__mini-descr {
+    color: #40344A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+    margin-bottom: 8px
+}
+
+.rate-us__textarea {
+    width: 478px;
+    height: 79px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: #E8E8E8;
+    border: none;
+    color: #40344A;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    resize: none;
+}
+
+.rate-us__file-list {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 120px;
+    /* display: flex; */
+    text-wrap: nowrap;
+    color: #40344A;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.rate-us__textarea:placeholder {
+    color: #8B8B8B;
+}
+
+.rate-us__mini-title--last {
+    margin-bottom: 8px;
+}
+
+.rate-us__mini-section--without-border {
+    border-bottom: initial;
+    padding-bottom: 0;
+}
+
+.custom-checkbox>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox>span {
+    position: relative;
+    padding-left: 24px;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    gap: 4px;
+    color: #40344A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.custom-checkbox>span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    border: none;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+/* стили при наведении курсора на checkbox */
+.custom-checkbox>input:not(:disabled):not(:checked)+span:hover::before {
+    border-color: #b3d7ff;
+}
+
+/* стили для активного чекбокса (при нажатии на него) */
+.custom-checkbox>input:not(:disabled):active+span::before {
+    content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMiAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeT0iMiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNCIgZmlsbD0iI0Q5RDlEOSIvPgo8cGF0aCBkPSJNMyA3TDEwIDE0TDIwIDIiIHN0cm9rZT0iIzg1NTNBRCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==);
+}
+
+/* стили для чекбокса, находящегося в фокусе */
+/*.custom-checkbox>input:focus+span::before {*/
+/*    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);*/
+/*}*/
+
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox>input:focus:not(:checked)+span::before {
+    border-color: #80bdff;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox>input:checked+span::before {
+    content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMiAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeT0iMiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNCIgZmlsbD0iI0Q5RDlEOSIvPgo8cGF0aCBkPSJNMyA3TDEwIDE0TDIwIDIiIHN0cm9rZT0iIzg1NTNBRCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==);
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox>input:disabled+span::before {
+    background-color: #e9ecef;
+}
+
+.rate-us__problem {
+    color: #40344A;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+}
+
+.rate-us__problems {
+    display: none;
+}
+
+.rate-us__problem--quest {
+    margin: 12px 0;
+}
+
+.rate-us__problem--no {
+    display: none;
+    margin-top: 12px;
+}
+
+.rate-us__checkbox-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.rate-us__errors {
+    display: none;
+    color: #F00;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    margin-bottom: 8px;
+}
+
+.rate-us__label-input {
+    color: #40344A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+    margin-bottom: 8px;
+}
+
+.rate-us__input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: #E8E8E8;
+    border: none;
+    color: #40344A;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    width: 100%;
+}
+
+.rate-us__form-control-input {
+    align-items: flex-start;
+}
+
+.rate-us__mini-section-input {
+    padding-bottom: 18px;
+}
+
+#tech {
+    display: none;
+}
+
+.settings__file-label {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.input-file input.settings__file[type="file"] {
+    opacity: 1;
+    position: initial;
+    width: initial;
+    height: initial;
+    z-index: auto;
+    cursor: pointer;
+}
+
+.settings__file-descr {
+    max-width: 400px;
+}
+
+.settings__right {
+    margin-left: 0 !important;
+}
+
+@media (max-width: 900px) {
+    .rate-us__title {
+        font-size: 24px;
+        line-height: 88%;
+        letter-spacing: 0.48px;
+        margin-bottom: 12px;
+    }
+
+    .rate-us__descr {
+        font-size: 12px;
+        letter-spacing: 0.24px;
+        margin-bottom: 28px;
+    }
+
+    .rate-us__mini-section {
+        padding-bottom: 28px;
+        margin-bottom: 28px;
+    }
+
+    .rate-us__mini-title {
+        font-size: 14px;
+        letter-spacing: 0.28px;
+    }
+
+    .rate-us__radio-buttons {
+        gap: 12px;
+    }
+
+    .rate-us__textarea {
+        width: 100%;
+    }
+
+    .rate-us__mini-section--without-border {
+        padding-bottom: 0;
+    }
+
+    .rate-us__mini-section-input {
+        padding-bottom: 8px;
+    }
+}

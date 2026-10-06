@@ -1,0 +1,5 @@
+<?
+$MESS["SPOD_DEFAULT_TEMPLATE_DESCRIPTION"] = "注文詳細情報";
+$MESS["SPOD_DEFAULT_TEMPLATE_NAME"] = "注文詳細ページ";
+$MESS["SPOD_NAME"] = "パーソナルセクション";
+?>

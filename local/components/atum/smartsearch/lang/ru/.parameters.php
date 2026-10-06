@@ -1,0 +1,31 @@
+<?
+$MESS["SEARCH"] = "Настройки поиска";
+$MESS["ITEM"] = "Настройки списка разделов";
+$MESS["SORT_SETTINGS"] = "Настройки сортировки";
+$MESS["IBLOCK_SORT_ASC"] = "по возрастанию";
+$MESS["IBLOCK_SORT_DESC"] = "по убыванию";
+$MESS["INCLUDE_JQUERY"] = "Подключать jQuery";
+$MESS["IBLOCK_TYPE"] = "Тип инфоблока";
+$MESS["IBLOCK_ID"] = "Инфоблок";
+$MESS["IBLOCK_ELEMENT_SORT_FIELD"] = "По какому полю сортируем элементы";
+$MESS["IBLOCK_ELEMENT_SORT_ORDER"] = "Порядок сортировки элементов";
+$MESS["IBLOCK_ELEMENT_SORT_FIELD2"] = "Поле для второй сортировки элементов";
+$MESS["IBLOCK_ELEMENT_SORT_ORDER2"] = "Порядок второй сортировки элементов";
+$MESS["SEARCH_MIN_CHARS"] = "Минимальное количество символов для поиска";
+$MESS["SEARCH_PAGE"] = "URL отдельной страницы с результатами поиска";
+$MESS["SEARCH_BY"] = "Искать по";
+$MESS["SEARCH_SHOW_SECTIONS"] = "Искать разделы";
+$MESS["SEARCH_BY_ARTICLE"] = "Искать по артикулу";
+$MESS["SEARCH_ONLY_WITH_PICTURE"] = "Показывать только товары с картинкой";
+$MESS["SEARCH_ONLY_AVAILABLE"] = "Показывать только товары в наличии";
+$MESS["SEARCH_ONLY_WITH_PRICE"] = "Показывать только товары с ценой";
+$MESS["SEARCH_ARTICLE_PROPERTY"] = "Свойство, в котором хранится артикул";
+$MESS["ITEMS_COUNT"] = "Общее количество товаров";
+$MESS["ITEMS_COUNT_NAV"] = "Количество товаров на странице";
+$MESS["ITEMS_PRICE_CODE"] = "Тип цены";
+$MESS["ITEMS_CURRENCY"] = "Конвертировать цены в одну валюту";
+$MESS["ITEMS_IMAGES"] = "Дополнительная картинка основного товара";
+$MESS["NOT_CONVERT"] = "Не конвертировать";
+$MESS["ATUM_SMARTSEARCH_NAZVANIU"] = "Названию";
+$MESS["ATUM_SMARTSEARCH_NAZVANIU_I_OPISANIU"] = "Названию и Описанию";
+?>

@@ -1,0 +1,26 @@
+/* company */
+.company-page .slogan {
+  display: block;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 95px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #9159BD;
+}
+.company-page .yellow {
+  color: #EFB400;
+}
+.company-page h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #40344A;
+  margin-bottom: 0;
+}
+.custom-file-input:lang(en)~.custom-file-label::after{
+  content: "Upload";
+}

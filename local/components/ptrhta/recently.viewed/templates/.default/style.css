@@ -1,0 +1,188 @@
+.section-recently {
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+.section-recently h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 70px;
+    color: #40344A !important;
+}
+.section-recently .slider-products {
+    margin-top: 0;
+    border: none;
+    padding: 0px;
+}
+.section-recently .slider-products .slick-list {
+    padding-left: 0px;
+}
+.section-recently .product-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    cursor: pointer;
+    width: 100%;
+}
+.section-recently .product-block .img-product {
+    width: 76px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.section-recently .product-block .text-product {
+    text-align: left;
+    text-transform: none;
+    width: 55%;
+}
+.section-recently .product-block .text-product p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #40344A;
+    margin-top: 20px;
+}
+.section-recently .product-block .text-product p:first-child {
+    min-height: 35px;
+    display: flex;
+    align-items: end;
+}
+
+.section-recently .product-block .text-product .name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #40344A;
+}
+.section-recently .product-block .text-product .cost {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #40344A;
+}
+.section-recently .btn-comments {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #40344A;
+    height: 39px;
+    width: 300px;
+    border-radius: 3px;
+    margin: 70px auto 20px auto;
+    line-height: 40px;
+}
+
+.section-recently .slick-dots {
+    width: 90%;
+}
+
+.section-recently .slider-products {
+    padding-left: 70px;
+}
+
+.section-recently .slider .slick-prev,
+.section-recently .slider .slick-next {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    background: transparent;
+    border-radius: 50%;
+    z-index: 9;
+}
+.section-recently .slider .slick-prev:hover,
+.section-recently .slider .slick-next:hover {
+    border: 1px solid #867793;
+}
+.section-recently .slider .slick-prev:before,
+.section-recently .slider .slick-next:before {
+    line-height: 1;
+}
+.section-recentlye .slider .slick-next {
+    right: -10px;
+}
+.section-recently .slider .slick-next:before {
+    content: url(/local/templates/hlab_store/img/next.svg);
+}
+.section-recently .slider .slick-prev {
+    left: -10px;
+}
+.section-recently .slider .slick-prev:before {
+    content: url(/local/templates/hlab_store/img/prev.svg);
+}
+
+.section-recently .slider {
+    padding-left: 70px;
+}
+
+
+.section-recently .text-product .name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #40344A;
+}
+
+@media (max-width: 1025px) {
+    .section-recently .slider {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-recently {
+        margin-bottom: 0;
+    }
+
+
+    .section-recently .product-block .text-product p:first-child {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 539px) {
+    .section-recently .slider {
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    .section-recently h2 {
+        text-align: center;
+        display: block !important;
+    }
+
+    .section-recently .product-block .img-product {
+        width: 100% !important;
+        height: 104px;
+        margin-right: 0;
+    }
+
+    .section-recently h2 {
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+
+    .section-recently .text-product {
+        text-align: center !important;
+        text-transform: none;
+        width: 100% !important;
+    }
+
+    .section-recently .product-block .text-product .cost {
+        font-size: 22px;
+    }
+}
