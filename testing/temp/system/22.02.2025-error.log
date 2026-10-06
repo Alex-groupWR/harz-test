@@ -1,0 +1,42 @@
+2025-02-22 00:02:37 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:283
+#0: ReCaptchaTwoGoogle::checkReCaptcha
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:142
+#1: ReCaptchaTwoGoogle::checkBxCaptcha
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:109
+#2: ReCaptchaTwoGoogle::OnVerificContent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/tools.php:5253
+#3: ExecuteModuleEventEx
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:187
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_before.php:19
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog.php:10
+#6: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/header.php:1
+#7: require(string)
+	/var/www/vhosts/harzlabs.ru/httpdocs/personal/index.php:2
+----------
+
+2025-02-22 00:02:42 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:283
+#0: ReCaptchaTwoGoogle::checkReCaptcha
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:142
+#1: ReCaptchaTwoGoogle::checkBxCaptcha
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:109
+#2: ReCaptchaTwoGoogle::OnVerificContent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/tools.php:5253
+#3: ExecuteModuleEventEx
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:187
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_before.php:19
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog.php:10
+#6: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/header.php:1
+#7: require(string)
+	/var/www/vhosts/harzlabs.ru/httpdocs/personal/forgot-password.php:2
+----------
+

@@ -1,0 +1,42 @@
+2024-12-19 13:58:54 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:135
+----------
+
+2024-12-19 21:35:56 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:135
+----------
+
+2024-12-19 21:45:16 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:135
+----------
+
+2024-12-19 22:45:03 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "php" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/media/section.php:107
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:784
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:724
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:615
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:692
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/media/index.php:38
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+

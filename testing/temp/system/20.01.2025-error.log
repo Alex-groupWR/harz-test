@@ -1,0 +1,60 @@
+2025-01-20 07:54:53 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:55:20 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:55:48 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:56:15 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:56:42 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:57:09 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:57:37 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:58:04 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:58:31 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:58:58 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:59:25 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-20 07:59:52 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+

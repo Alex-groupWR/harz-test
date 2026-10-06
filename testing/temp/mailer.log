@@ -1,0 +1,1039 @@
+Connection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 iva5-057a0d1fbbd8.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941488-rPyeUqANPH-4mLiuxhv"SERVER -> CLIENT: 220 iva5-057a0d1fbbd8.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941488-rPyeUqANPH-4mLiuxhv
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-iva5-057a0d1fbbd8.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-iva5-057a0d1fbbd8.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1649941488-rPyeUqANPH-4mLiuxhv"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1649941488-rPyeUqANPH-4mLiuxhv
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1649941488-rPyeUqANPH-4mLimojq"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1649941488-rPyeUqANPH-4mLimojq
+CLIENT -> SERVER: RCPT TO:<p.chapala@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <p.chapala@harzlabs.ru> recipient ok 1649941488-rPyeUqANPH-4mLimojq"SERVER -> CLIENT: 250 250 2.1.5 <p.chapala@harzlabs.ru> recipient ok 1649941488-rPyeUqANPH-4mLimojq
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Thu, 14 Apr 2022 16:04:48 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0J/QsNCy0LXQuyDQp9Cw0L/QsNC70LA=?= <p.chapala@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 5525.59 (14.04.2022 16:04:47)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0J/QsNCy0LXQuyDQp9Cw0L/QsNC70LA=?= <p.chapala@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Сергей Волоков
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет
+CLIENT -> SERVER: Горелов Иван сегодня до 16:00, отпросился на мед осмотр
+CLIENT -> SERVER: По всем вопросам на связи 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/131/blog/559/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on iva5-057a0d1fbbd8.qloud-c.yandex.net 1649941488-rPyeUqANPH-4mLimojq"SERVER -> CLIENT: 250 2.0.0 Ok: queued on iva5-057a0d1fbbd8.qloud-c.yandex.net 1649941488-rPyeUqANPH-4mLimojq
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 myt5-aad1beefab42.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941488-diFxJz9KYF-4mKe1njT"SERVER -> CLIENT: 220 myt5-aad1beefab42.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941488-diFxJz9KYF-4mKe1njT
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-myt5-aad1beefab42.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-myt5-aad1beefab42.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1649941489-diFxJz9KYF-4mKe1njT"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1649941489-diFxJz9KYF-4mKe1njT
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1649941489-diFxJz9KYF-4nKeE3iB"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1649941489-diFxJz9KYF-4nKeE3iB
+CLIENT -> SERVER: RCPT TO:<ob@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <ob@harzlabs.ru> recipient ok 1649941489-diFxJz9KYF-4nKeE3iB"SERVER -> CLIENT: 250 250 2.1.5 <ob@harzlabs.ru> recipient ok 1649941489-diFxJz9KYF-4nKeE3iB
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Thu, 14 Apr 2022 16:04:48 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0J7Qu9GM0LPQsCDQkdC+0LPQsNGC0YvRgNC10LLQsA==?= <ob@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 5526.59 (14.04.2022 16:04:47)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0J7Qu9GM0LPQsCDQkdC+0LPQsNGC0YvRgNC10LLQsA==?= <ob@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Сергей Волоков
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет
+CLIENT -> SERVER: Горелов Иван сегодня до 16:00, отпросился на мед осмотр
+CLIENT -> SERVER: По всем вопросам на связи 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/131/blog/559/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on myt5-aad1beefab42.qloud-c.yandex.net 1649941489-diFxJz9KYF-4nKeE3iB"SERVER -> CLIENT: 250 2.0.0 Ok: queued on myt5-aad1beefab42.qloud-c.yandex.net 1649941489-diFxJz9KYF-4nKeE3iB
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 sas2-ffeb92823cb1.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941489-GYD4JLu7jo-4nHqsOES"SERVER -> CLIENT: 220 sas2-ffeb92823cb1.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941489-GYD4JLu7jo-4nHqsOES
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-sas2-ffeb92823cb1.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-sas2-ffeb92823cb1.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1649941489-GYD4JLu7jo-4nHqsOES"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1649941489-GYD4JLu7jo-4nHqsOES
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1649941489-GYD4JLu7jo-4nHqfxXK"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1649941489-GYD4JLu7jo-4nHqfxXK
+CLIENT -> SERVER: RCPT TO:<d.kornilov@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <d.kornilov@harzlabs.ru> recipient ok 1649941489-GYD4JLu7jo-4nHqfxXK"SERVER -> CLIENT: 250 250 2.1.5 <d.kornilov@harzlabs.ru> recipient ok 1649941489-GYD4JLu7jo-4nHqfxXK
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Thu, 14 Apr 2022 16:04:49 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0JTQvNC40YLRgNC40Lkg0JrQvtGA0L3QuNC70L7Qsg==?= <d.kornilov@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 5527.59 (14.04.2022 16:04:47)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0JTQvNC40YLRgNC40Lkg0JrQvtGA0L3QuNC70L7Qsg==?= <d.kornilov@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Сергей Волоков
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет
+CLIENT -> SERVER: Горелов Иван сегодня до 16:00, отпросился на мед осмотр
+CLIENT -> SERVER: По всем вопросам на связи 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/131/blog/559/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on sas2-ffeb92823cb1.qloud-c.yandex.net 1649941491-GYD4JLu7jo-4nHqfxXK"SERVER -> CLIENT: 250 2.0.0 Ok: queued on sas2-ffeb92823cb1.qloud-c.yandex.net 1649941491-GYD4JLu7jo-4nHqfxXK
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 iva6-2d18925256a6.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941491-RwFcmCGtxJ-4pL8HNY9"SERVER -> CLIENT: 220 iva6-2d18925256a6.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941491-RwFcmCGtxJ-4pL8HNY9
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-iva6-2d18925256a6.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-iva6-2d18925256a6.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1649941491-RwFcmCGtxJ-4pL8HNY9"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1649941491-RwFcmCGtxJ-4pL8HNY9
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1649941491-RwFcmCGtxJ-4pL8I0xR"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1649941491-RwFcmCGtxJ-4pL8I0xR
+CLIENT -> SERVER: RCPT TO:<r.fataliev@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <r.fataliev@harzlabs.ru> recipient ok 1649941491-RwFcmCGtxJ-4pL8I0xR"SERVER -> CLIENT: 250 250 2.1.5 <r.fataliev@harzlabs.ru> recipient ok 1649941491-RwFcmCGtxJ-4pL8I0xR
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Thu, 14 Apr 2022 16:04:51 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0KDRg9GB0LvQsNC9INCk0LDRgtCw0LvQuNC10LI=?= <r.fataliev@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 5528.59 (14.04.2022 16:04:47)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0KDRg9GB0LvQsNC9INCk0LDRgtCw0LvQuNC10LI=?= <r.fataliev@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Сергей Волоков
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет
+CLIENT -> SERVER: Горелов Иван сегодня до 16:00, отпросился на мед осмотр
+CLIENT -> SERVER: По всем вопросам на связи 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/131/blog/559/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on iva6-2d18925256a6.qloud-c.yandex.net 1649941491-RwFcmCGtxJ-4pL8I0xR"SERVER -> CLIENT: 250 2.0.0 Ok: queued on iva6-2d18925256a6.qloud-c.yandex.net 1649941491-RwFcmCGtxJ-4pL8I0xR
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 myt6-efff10c3476a.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941492-rxhe6LWPo1-4pKe45K6"SERVER -> CLIENT: 220 myt6-efff10c3476a.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1649941492-rxhe6LWPo1-4pKe45K6
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-myt6-efff10c3476a.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-myt6-efff10c3476a.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1649941492-rxhe6LWPo1-4pKe45K6"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1649941492-rxhe6LWPo1-4pKe45K6
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1649941492-rxhe6LWPo1-4qKeft3G"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1649941492-rxhe6LWPo1-4qKeft3G
+CLIENT -> SERVER: RCPT TO:<as@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <as@harzlabs.ru> recipient ok 1649941492-rxhe6LWPo1-4qKeft3G"SERVER -> CLIENT: 250 250 2.1.5 <as@harzlabs.ru> recipient ok 1649941492-rxhe6LWPo1-4qKeft3G
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Thu, 14 Apr 2022 16:04:51 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0JDQu9C10LrRgdC10Lkg0KHQtdC70YzRh9C40L3QutC+0LI=?= <as@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 5529.59 (14.04.2022 16:04:47)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0JDQu9C10LrRgdC10Lkg0KHQtdC70YzRh9C40L3QutC+0LI=?= <as@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Сергей Волоков
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет
+CLIENT -> SERVER: Горелов Иван сегодня до 16:00, отпросился на мед осмотр
+CLIENT -> SERVER: По всем вопросам на связи 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/131/blog/559/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on myt6-efff10c3476a.qloud-c.yandex.net 1649941492-rxhe6LWPo1-4qKeft3G"SERVER -> CLIENT: 250 2.0.0 Ok: queued on myt6-efff10c3476a.qloud-c.yandex.net 1649941492-rxhe6LWPo1-4qKeft3G
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 sas8-c6148047b62a.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960165-eoOsun2Vak-2jMea1Hk"SERVER -> CLIENT: 220 sas8-c6148047b62a.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960165-eoOsun2Vak-2jMea1Hk
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-sas8-c6148047b62a.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-sas8-c6148047b62a.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1650960165-eoOsun2Vak-2jMea1Hk"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1650960165-eoOsun2Vak-2jMea1Hk
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1650960165-eoOsun2Vak-2jMeDn4C"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1650960165-eoOsun2Vak-2jMeDn4C
+CLIENT -> SERVER: RCPT TO:<ob@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <ob@harzlabs.ru> recipient ok 1650960165-eoOsun2Vak-2jMeDn4C"SERVER -> CLIENT: 250 250 2.1.5 <ob@harzlabs.ru> recipient ok 1650960165-eoOsun2Vak-2jMeDn4C
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Tue, 26 Apr 2022 11:02:45 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0J7Qu9GM0LPQsCDQkdC+0LPQsNGC0YvRgNC10LLQsA==?= <ob@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 6569.59 (26.04.2022 11:02:44)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0J7Qu9GM0LPQsCDQkdC+0LPQsNGC0YvRgNC10LLQsA==?= <ob@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Леонид Овчинников
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет! Работаю удаленно до конца недели, по всем вопросам на связи. 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/25/blog/590/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on sas8-c6148047b62a.qloud-c.yandex.net 1650960165-eoOsun2Vak-2jMeDn4C"SERVER -> CLIENT: 250 2.0.0 Ok: queued on sas8-c6148047b62a.qloud-c.yandex.net 1650960165-eoOsun2Vak-2jMeDn4C
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 iva5-057a0d1fbbd8.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960165-LJVTPZuTi5-2jMKWJtG"SERVER -> CLIENT: 220 iva5-057a0d1fbbd8.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960165-LJVTPZuTi5-2jMKWJtG
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-iva5-057a0d1fbbd8.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-iva5-057a0d1fbbd8.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1650960166-LJVTPZuTi5-2jMKWJtG"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1650960166-LJVTPZuTi5-2jMKWJtG
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1650960166-LJVTPZuTi5-2kMK6EPO"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1650960166-LJVTPZuTi5-2kMK6EPO
+CLIENT -> SERVER: RCPT TO:<d.kornilov@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <d.kornilov@harzlabs.ru> recipient ok 1650960166-LJVTPZuTi5-2kMK6EPO"SERVER -> CLIENT: 250 250 2.1.5 <d.kornilov@harzlabs.ru> recipient ok 1650960166-LJVTPZuTi5-2kMK6EPO
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Tue, 26 Apr 2022 11:02:45 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0JTQvNC40YLRgNC40Lkg0JrQvtGA0L3QuNC70L7Qsg==?= <d.kornilov@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 6570.59 (26.04.2022 11:02:44)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0JTQvNC40YLRgNC40Lkg0JrQvtGA0L3QuNC70L7Qsg==?= <d.kornilov@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Леонид Овчинников
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет! Работаю удаленно до конца недели, по всем вопросам на связи. 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/25/blog/590/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on iva5-057a0d1fbbd8.qloud-c.yandex.net 1650960166-LJVTPZuTi5-2kMK6EPO"SERVER -> CLIENT: 250 2.0.0 Ok: queued on iva5-057a0d1fbbd8.qloud-c.yandex.net 1650960166-LJVTPZuTi5-2kMK6EPO
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 myt5-aad1beefab42.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960166-3f9Ao3f7fg-2kMincdg"SERVER -> CLIENT: 220 myt5-aad1beefab42.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960166-3f9Ao3f7fg-2kMincdg
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-myt5-aad1beefab42.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-myt5-aad1beefab42.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1650960166-3f9Ao3f7fg-2kMincdg"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1650960166-3f9Ao3f7fg-2kMincdg
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1650960166-3f9Ao3f7fg-2kMi4uKp"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1650960166-3f9Ao3f7fg-2kMi4uKp
+CLIENT -> SERVER: RCPT TO:<r.fataliev@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <r.fataliev@harzlabs.ru> recipient ok 1650960166-3f9Ao3f7fg-2kMi4uKp"SERVER -> CLIENT: 250 250 2.1.5 <r.fataliev@harzlabs.ru> recipient ok 1650960166-3f9Ao3f7fg-2kMi4uKp
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Tue, 26 Apr 2022 11:02:46 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0KDRg9GB0LvQsNC9INCk0LDRgtCw0LvQuNC10LI=?= <r.fataliev@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 6571.59 (26.04.2022 11:02:44)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0KDRg9GB0LvQsNC9INCk0LDRgtCw0LvQuNC10LI=?= <r.fataliev@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Леонид Овчинников
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет! Работаю удаленно до конца недели, по всем вопросам на связи. 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/25/blog/590/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on myt5-aad1beefab42.qloud-c.yandex.net 1650960167-3f9Ao3f7fg-2kMi4uKp"SERVER -> CLIENT: 250 2.0.0 Ok: queued on myt5-aad1beefab42.qloud-c.yandex.net 1650960167-3f9Ao3f7fg-2kMi4uKp
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 sas1-7a2c1d25dbfc.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960167-4mNxl5G0Qa-2lMCfCc9"SERVER -> CLIENT: 220 sas1-7a2c1d25dbfc.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960167-4mNxl5G0Qa-2lMCfCc9
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-sas1-7a2c1d25dbfc.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-sas1-7a2c1d25dbfc.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1650960167-4mNxl5G0Qa-2lMCfCc9"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1650960167-4mNxl5G0Qa-2lMCfCc9
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1650960167-4mNxl5G0Qa-2lMCJbpN"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1650960167-4mNxl5G0Qa-2lMCJbpN
+CLIENT -> SERVER: RCPT TO:<as@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <as@harzlabs.ru> recipient ok 1650960167-4mNxl5G0Qa-2lMCJbpN"SERVER -> CLIENT: 250 250 2.1.5 <as@harzlabs.ru> recipient ok 1650960167-4mNxl5G0Qa-2lMCJbpN
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Tue, 26 Apr 2022 11:02:47 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0JDQu9C10LrRgdC10Lkg0KHQtdC70YzRh9C40L3QutC+0LI=?= <as@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 6572.59 (26.04.2022 11:02:44)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0JDQu9C10LrRgdC10Lkg0KHQtdC70YzRh9C40L3QutC+0LI=?= <as@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Леонид Овчинников
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет! Работаю удаленно до конца недели, по всем вопросам на связи. 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/25/blog/590/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on sas1-7a2c1d25dbfc.qloud-c.yandex.net 1650960167-4mNxl5G0Qa-2lMCJbpN"SERVER -> CLIENT: 250 2.0.0 Ok: queued on sas1-7a2c1d25dbfc.qloud-c.yandex.net 1650960167-4mNxl5G0Qa-2lMCJbpN
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 myt5-cceafa914410.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960167-ni1DtfDRZ5-2lMmRl6c"SERVER -> CLIENT: 220 myt5-cceafa914410.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1650960167-ni1DtfDRZ5-2lMmRl6c
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-myt5-cceafa914410.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-myt5-cceafa914410.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1650960167-ni1DtfDRZ5-2lMmRl6c"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1650960167-ni1DtfDRZ5-2lMmRl6c
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1650960167-ni1DtfDRZ5-2lMmf2tm"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1650960167-ni1DtfDRZ5-2lMmf2tm
+CLIENT -> SERVER: RCPT TO:<M.Boriskov@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <M.Boriskov@harzlabs.ru> recipient ok 1650960167-ni1DtfDRZ5-2lMmf2tm"SERVER -> CLIENT: 250 250 2.1.5 <M.Boriskov@harzlabs.ru> recipient ok 1650960167-ni1DtfDRZ5-2lMmf2tm
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Tue, 26 Apr 2022 11:02:47 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0JzQuNGF0LDQuNC7INCR0L7RgNC40YHQutC+0LI=?= <M.Boriskov@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 6573.59 (26.04.2022 11:02:44)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0JzQuNGF0LDQuNC7INCR0L7RgNC40YHQutC+0LI=?= <M.Boriskov@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Леонид Овчинников
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет! Работаю удаленно до конца недели, по всем вопросам на связи. 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/25/blog/590/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on myt5-cceafa914410.qloud-c.yandex.net 1650960168-ni1DtfDRZ5-2lMmf2tm"SERVER -> CLIENT: 250 2.0.0 Ok: queued on myt5-cceafa914410.qloud-c.yandex.net 1650960168-ni1DtfDRZ5-2lMmf2tm
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 iva1-dcde80888020.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1652439722-cuaItua0xn-22NK4GZp"SERVER -> CLIENT: 220 iva1-dcde80888020.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1652439722-cuaItua0xn-22NK4GZp
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-iva1-dcde80888020.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-iva1-dcde80888020.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1652439722-cuaItua0xn-22NK4GZp"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1652439722-cuaItua0xn-22NK4GZp
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1652439722-cuaItua0xn-22NKmCXw"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1652439722-cuaItua0xn-22NKmCXw
+CLIENT -> SERVER: RCPT TO:<as@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <as@harzlabs.ru> recipient ok 1652439722-cuaItua0xn-22NKmCXw"SERVER -> CLIENT: 250 250 2.1.5 <as@harzlabs.ru> recipient ok 1652439722-cuaItua0xn-22NKmCXw
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: IM_NEW_NOTIFY
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Fri, 13 May 2022 14:02:02 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: as@harzlabs.ru
+CLIENT -> SERVER: X-MID: 7766.87 (13.05.2022 14:02:01)
+CLIENT -> SERVER: Content-Type: multipart/alternative; boundary="-------alt126627e3aa"
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiDQo9Cy0LXQtNC+0LzQu9C10L3QuNC1ICLQlNC+0LHQsNCy0LjQuyDQutC+0LzQvNC10L3RgtCw0YDQuNC5INC6INC30LDQtNCw0YfQtSBbIzM0ODFdINCY0LfQs9C+0YLQvtCy0LjRgtGMINCk0L4uLi4i?=
+CLIENT -> SERVER: To: as@harzlabs.ru
+CLIENT -> SERVER: 
+CLIENT -> SERVER: ---------alt126627e3aa
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Новое уведомление от Павел Чапала
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 13.05.2022 13:54:18
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Добавил комментарий к задаче [#3481] Изготовить Фотополимер HARZ Labs J-Model Violet (0,5 кг) - 1шт. по счету №735 (URL: https://bx.harzlabs.ru/company/personal/user/509/tasks/task/view/3481/?MID=23148#com23148 ) cо следующим текстом: "Коллеги, задачу закрываю,
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 1. Задачи ставятся на руководителей и потом делегируются
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 2. J-model прои..."
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Перейти к уведомлениям  :
+CLIENT -> SERVER: https://bx.harzlabs.ru/?IM_NOTIFY=Y
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Изменить настройки уведомлений:
+CLIENT -> SERVER: https://bx.harzlabs.ru/?IM_SETTINGS=NOTIFY
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: ---------alt126627e3aa
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+CLIENT -> SERVER: <html>
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: 	<meta name="viewport" content="width=device-width, initial-scale=1">
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 	<table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 		<tr>
+CLIENT -> SERVER: 			<td align="center" bgcolor="#edeef0" style="background-color: #edeef0; padding: 50px 15px; width: 100%;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 				<table align="center"  border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; max-width: 600px; width: 100%;">
+CLIENT -> SERVER: 					<tr>
+CLIENT -> SERVER: 						<td bgcolor="#fff" style="background-color: #fff; border: 1px solid #e1e1e1;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 							<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 								<tr>
+CLIENT -> SERVER: 									<td style="padding: 25px 30px 0;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 										<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td align="left" style="text-align: left;">
+CLIENT -> SERVER: 													<img src="https://bx.harzlabs.ru/bitrix/components/bitrix/intranet.template.mail/templates/.default/images/lang/ru/logo.png" width="183" height="35" alt="Битрикс24">
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td align="left" style="text-align: left; padding: 5px 0;">
+CLIENT -> SERVER: 													<span style="color: #2066b0; font-size: 19px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;">
+CLIENT -> SERVER: 														Новое уведомление от <span style="font-weight: bold;">Павел Чапала</span>													</span>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td align="left" style="text-align: left; padding:0;">
+CLIENT -> SERVER: 													<span style="color: #828b95;font-size: 15px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;">13.05.2022 13:54:18</span>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 									</td>
+CLIENT -> SERVER: 								</tr>
+CLIENT -> SERVER: 							</table>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 							<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 								<tr>
+CLIENT -> SERVER: 									<td style="padding: 20px 15px; ">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 										<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td style="background: #eef2f4 url('/bitrix/components/bitrix/intranet.template.mail/templates/.default/images/bg_im.png') repeat top center;padding: 30px 25px;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 													<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;min-height: 350px">
+CLIENT -> SERVER: 														<tr>
+CLIENT -> SERVER: 																														<td valign="top" align="left" width="55" style="width: 55px;vertical-align: top;">
+CLIENT -> SERVER: 																<img src="https://bx.harzlabs.ru/upload/resize_cache/main/175/72eza2w60o3h5wavodx9w4pm54ynpqd4/40_40_2/IMG_7384.png" width="40" height="40" alt="">
+CLIENT -> SERVER: 															</td>
+CLIENT -> SERVER: 																														<td valign="top" style="vertical-align: top;width: 464px; max-width: 100%;" >
+CLIENT -> SERVER: 																<span style="display: block; border-radius: 14px; padding: 13px 16px; background-color: #fbfcfc;text-align: left;">
+CLIENT -> SERVER: 																	<span style="display: block; font-size: 16px;font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color: #525c69;text-align: left;">
+CLIENT -> SERVER: 																		Добавил комментарий к задаче [#3481] Изготовить Фотополимер HARZ Labs J-Model Violet (0,5 кг) - 1шт. по счету №735 (URL: https://bx.harzlabs.ru/company/personal/user/509/tasks/task/view/3481/?MID=23148#com23148 ) cо следующим текстом: "Коллеги, задачу закрываю, <br /><br />1. Задачи ставятся на руководителей и потом делегируются<br /><br />2. J-model прои..."																	</span>
+CLIENT -> SERVER: 																</span>
+CLIENT -> SERVER: 															</td>
+CLIENT -> SERVER: 														</tr>
+CLIENT -> SERVER: 														<tr>
+CLIENT -> SERVER: 															<td height="100%" valign="top"></td>
+CLIENT -> SERVER: 															<td valign="top" align="left" style="padding-top: 20px;">
+CLIENT -> SERVER: 																<a href="https://bx.harzlabs.ru/?IM_NOTIFY=Y" style="display: inline-block; border-radius: 23px; padding: 0 30px; vertical-align: middle; text-decoration: none; height: 47px; background-color: #2fc6f6;">
+CLIENT -> SERVER: 																	<b style="line-height: 47px;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;color: #fff;">
+CLIENT -> SERVER: 																		Перейти к уведомлениям																	</b>
+CLIENT -> SERVER: 																</a>
+CLIENT -> SERVER: 															</td>
+CLIENT -> SERVER: 														</tr>
+CLIENT -> SERVER: 													</table>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 										<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td align="right" style="padding: 20px 0 0; text-align: right;">
+CLIENT -> SERVER: 													<a href="https://bx.harzlabs.ru/?IM_SETTINGS=NOTIFY" style="color: #a9adb3;font-size: 13px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;">Изменить настройки уведомлений</a>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 									</td>
+CLIENT -> SERVER: 								</tr>
+CLIENT -> SERVER: 							</table>
+CLIENT -> SERVER: 						</td>
+CLIENT -> SERVER: 					</tr>
+CLIENT -> SERVER: 				</table>
+CLIENT -> SERVER: 			</td>
+CLIENT -> SERVER: 		</tr>
+CLIENT -> SERVER: 	</table>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: ---------alt126627e3aa--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on iva1-dcde80888020.qloud-c.yandex.net 1652439722-cuaItua0xn-22NKmCXw"SERVER -> CLIENT: 250 2.0.0 Ok: queued on iva1-dcde80888020.qloud-c.yandex.net 1652439722-cuaItua0xn-22NKmCXw
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 vla1-b8fbf7e00b88.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1652942558-ZeiTSp4goc-gcoeHMVf"SERVER -> CLIENT: 220 vla1-b8fbf7e00b88.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1652942558-ZeiTSp4goc-gcoeHMVf
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-vla1-b8fbf7e00b88.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-vla1-b8fbf7e00b88.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1652942558-ZeiTSp4goc-gcoeHMVf"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1652942558-ZeiTSp4goc-gcoeHMVf
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1652942558-ZeiTSp4goc-gcoen7fl"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1652942558-ZeiTSp4goc-gcoen7fl
+CLIENT -> SERVER: RCPT TO:<bitrix@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <bitrix@harzlabs.ru> recipient ok 1652942558-ZeiTSp4goc-gcoen7fl"SERVER -> CLIENT: 250 250 2.1.5 <bitrix@harzlabs.ru> recipient ok 1652942558-ZeiTSp4goc-gcoen7fl
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Thu, 19 May 2022 09:42:38 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0JHQuNGC0YDQuNC60YEg0JHQvtGC?= <bitrix@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 8371.59 (19.05.2022 09:42:34)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0JHQuNGC0YDQuNC60YEg0JHQvtGC?= <bitrix@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Владимир Фомин
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет! Дмитрий Кулагин (кандидат на должность сотрудника производства) сегодня отсутствует. Лечит зубную боль, принесет справку. Завтра будет на месте.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/303/blog/620/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on vla1-b8fbf7e00b88.qloud-c.yandex.net 1652942558-ZeiTSp4goc-gcoen7fl"SERVER -> CLIENT: 250 2.0.0 Ok: queued on vla1-b8fbf7e00b88.qloud-c.yandex.net 1652942558-ZeiTSp4goc-gcoen7fl
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 iva4-50c21cb1cb18.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1652942558-Aul0qbRpi9-gcMSR3MZ"SERVER -> CLIENT: 220 iva4-50c21cb1cb18.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1652942558-Aul0qbRpi9-gcMSR3MZ
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-iva4-50c21cb1cb18.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-iva4-50c21cb1cb18.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1652942558-Aul0qbRpi9-gcMSR3MZ"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1652942558-Aul0qbRpi9-gcMSR3MZ
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1652942558-Aul0qbRpi9-gcMS62IM"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1652942558-Aul0qbRpi9-gcMS62IM
+CLIENT -> SERVER: RCPT TO:<D.Segodnik@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <D.Segodnik@harzlabs.ru> recipient ok 1652942558-Aul0qbRpi9-gcMS62IM"SERVER -> CLIENT: 250 250 2.1.5 <D.Segodnik@harzlabs.ru> recipient ok 1652942558-Aul0qbRpi9-gcMS62IM
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: BLOG_POST_BROADCAST
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Thu, 19 May 2022 09:42:38 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: =?UTF-8?B?0JTQsNGA0YzRjyDQodC10LPQvtC00L3QuNC6?= <D.Segodnik@harzlabs.ru>
+CLIENT -> SERVER: X-MID: 8372.59 (19.05.2022 09:42:34)
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiA=?=
+CLIENT -> SERVER: To: =?UTF-8?B?0JTQsNGA0YzRjyDQodC10LPQvtC00L3QuNC6?= <D.Segodnik@harzlabs.ru>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Информационное сообщение сайта HARZ Labs 24
+CLIENT -> SERVER: ------------------------------------------
+CLIENT -> SERVER: 
+CLIENT -> SERVER: На сайте добавлено новое сообщение.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Тема:
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Автор: Владимир Фомин
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Текст сообщения:
+CLIENT -> SERVER: Всем привет! Дмитрий Кулагин (кандидат на должность сотрудника производства) сегодня отсутствует. Лечит зубную боль, принесет справку. Завтра будет на месте.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Адрес сообщения:
+CLIENT -> SERVER: https://bx.harzlabs.ru/company/personal/user/303/blog/620/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Сообщение сгенерировано автоматически.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on iva4-50c21cb1cb18.qloud-c.yandex.net 1652942559-Aul0qbRpi9-gcMS62IM"SERVER -> CLIENT: 250 2.0.0 Ok: queued on iva4-50c21cb1cb18.qloud-c.yandex.net 1652942559-Aul0qbRpi9-gcMS62IM
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closedConnection: opening to ssl://smtp.yandex.ru:465, timeout=30, options=array()Connection: openedSMTP INBOUND: "220 myt6-016ca1315a73.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1653480422-3K8FSewAKE-7200Z83a"SERVER -> CLIENT: 220 myt6-016ca1315a73.qloud-c.yandex.net (Want to use Yandex.Mail for your domain? Visit http://pdd.yandex.ru) 1653480422-3K8FSewAKE-7200Z83a
+CLIENT -> SERVER: EHLO harzlabs.ru
+SMTP INBOUND: "250-myt6-016ca1315a73.qloud-c.yandex.net"SMTP INBOUND: "250-8BITMIME"SMTP INBOUND: "250-PIPELINING"SMTP INBOUND: "250-SIZE 53477376"SMTP INBOUND: "250-STARTTLS"SMTP INBOUND: "250-AUTH LOGIN PLAIN XOAUTH2"SMTP INBOUND: "250-DSN"SMTP INBOUND: "250 ENHANCEDSTATUSCODES"SERVER -> CLIENT: 250-myt6-016ca1315a73.qloud-c.yandex.net
+250-8BITMIME
+250-PIPELINING
+250-SIZE 53477376
+250-STARTTLS
+250-AUTH LOGIN PLAIN XOAUTH2
+250-DSN
+250 ENHANCEDSTATUSCODES
+Auth method requested: UNSPECIFIEDAuth methods available on the server: LOGIN,PLAIN,XOAUTH2Requested auth method not available: Auth method selected: LOGINCLIENT -> SERVER: AUTH LOGIN
+SMTP INBOUND: "334 VXNlcm5hbWU6"SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: bWFpbEBoYXJ6bGFicy5ydQ==
+SMTP INBOUND: "334 UGFzc3dvcmQ6"SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: eWNhcndvbXd1aWtsYmtzZg==
+SMTP INBOUND: "235 2.7.0 Authentication successful. 1653480422-3K8FSewAKE-7200Z83a"SERVER -> CLIENT: 235 2.7.0 Authentication successful. 1653480422-3K8FSewAKE-7200Z83a
+CLIENT -> SERVER: MAIL FROM:<mail@harzlabs.ru>
+SMTP INBOUND: "250 2.1.0 <mail@harzlabs.ru> ok 1653480422-3K8FSewAKE-7200Lkh1"SERVER -> CLIENT: 250 2.1.0 <mail@harzlabs.ru> ok 1653480422-3K8FSewAKE-7200Lkh1
+CLIENT -> SERVER: RCPT TO:<as@harzlabs.ru>
+SMTP INBOUND: "250 250 2.1.5 <as@harzlabs.ru> recipient ok 1653480422-3K8FSewAKE-7200Lkh1"SERVER -> CLIENT: 250 250 2.1.5 <as@harzlabs.ru> recipient ok 1653480422-3K8FSewAKE-7200Lkh1
+CLIENT -> SERVER: DATA
+SMTP INBOUND: "354 Start mail input, end with <CRLF>.<CRLF>"SERVER -> CLIENT: 354 Start mail input, end with <CRLF>.<CRLF>
+CLIENT -> SERVER: From: mail@harzlabs.ru
+CLIENT -> SERVER: Reply-To: mail@harzlabs.ru
+CLIENT -> SERVER: X-EVENT_NAME: IM_NEW_MESSAGE
+CLIENT -> SERVER: X-Priority: 3 (Normal)
+CLIENT -> SERVER: Date: Wed, 25 May 2022 15:07:02 +0300
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: To: as@harzlabs.ru
+CLIENT -> SERVER: X-MID: 9235.91 (25.05.2022 15:07:02)
+CLIENT -> SERVER: Content-Type: multipart/alternative; boundary="-------alt582628e1be"
+CLIENT -> SERVER: Subject: =?UTF-8?B?SEFSWiBMYWJzIDI0OiDQnNCz0L3QvtCy0LXQvdC90YvQtSDRgdC+0L7QsdGJ0LXQvdC40Y8g0L7RgiDQkNC90LTRgNC10Lkg0KXRgNC10L3QvtCy?=
+CLIENT -> SERVER: To: as@harzlabs.ru
+CLIENT -> SERVER: 
+CLIENT -> SERVER: ---------alt582628e1be
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Новое сообщение от Андрей Хренов
+CLIENT -> SERVER: 
+CLIENT -> SERVER: (25.05.2022 14:58:06) Леш, сделай счет для TOO Asklepios на 2 шт Dental Crown LT A1 плюс доставка в Казахстан СДЕКом до двери
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Посмотреть  :
+CLIENT -> SERVER: https://bx.harzlabs.ru/?IM_NOTIFY=Y
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Изменить настройки уведомлений:
+CLIENT -> SERVER: https://bx.harzlabs.ru/?IM_SETTINGS=NOTIFY
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: ---------alt582628e1be
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+CLIENT -> SERVER: <html>
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: 	<meta name="viewport" content="width=device-width, initial-scale=1">
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 	<table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 		<tr>
+CLIENT -> SERVER: 			<td align="center" bgcolor="#edeef0" style="background-color: #edeef0; padding: 50px 15px; width: 100%;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 				<table align="center"  border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; max-width: 600px; width: 100%;">
+CLIENT -> SERVER: 					<tr>
+CLIENT -> SERVER: 						<td bgcolor="#fff" style="background-color: #fff; border: 1px solid #e1e1e1;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 							<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 								<tr>
+CLIENT -> SERVER: 									<td style="padding: 25px 30px 0;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 										<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td align="left" style="text-align: left;">
+CLIENT -> SERVER: 													<img src="https://bx.harzlabs.ru/bitrix/components/bitrix/intranet.template.mail/templates/.default/images/lang/ru/logo.png" width="183" height="35" alt="Битрикс24">
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td align="left" style="text-align: left; padding: 5px 0;">
+CLIENT -> SERVER: 													<span style="color: #2066b0; font-size: 19px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;">
+CLIENT -> SERVER: 														Новое сообщение от <span style="font-weight: bold;">Андрей Хренов</span>													</span>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td align="left" style="text-align: left; padding:0;">
+CLIENT -> SERVER: 													<span style="color: #828b95;font-size: 15px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"></span>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 									</td>
+CLIENT -> SERVER: 								</tr>
+CLIENT -> SERVER: 							</table>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 							<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 								<tr>
+CLIENT -> SERVER: 									<td style="padding: 20px 15px; ">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 										<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td style="background: #eef2f4 url('/bitrix/components/bitrix/intranet.template.mail/templates/.default/images/bg_im.png') repeat top center;padding: 30px 25px;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 													<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;min-height: 350px">
+CLIENT -> SERVER: 														<tr>
+CLIENT -> SERVER: 																														<td valign="top" align="left" width="55" style="width: 55px;vertical-align: top;">
+CLIENT -> SERVER: 																<img src="https://bx.harzlabs.ru/upload/resize_cache/main/020/020352e0d32168b2666f702ea7345678/40_40_2/avatar.png" width="40" height="40" alt="">
+CLIENT -> SERVER: 															</td>
+CLIENT -> SERVER: 																														<td valign="top" style="vertical-align: top;width: 464px; max-width: 100%;" >
+CLIENT -> SERVER: 																<span style="display: block; border-radius: 14px; padding: 13px 16px; background-color: #fbfcfc;text-align: left;">
+CLIENT -> SERVER: 																	<span style="display: block; font-size: 16px;font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color: #525c69;text-align: left;">
+CLIENT -> SERVER: 																		(25.05.2022 14:58:06) Леш, сделай счет для TOO Asklepios на 2 шт Dental Crown LT A1 плюс доставка в Казахстан СДЕКом до двери<br /><br />																	</span>
+CLIENT -> SERVER: 																</span>
+CLIENT -> SERVER: 															</td>
+CLIENT -> SERVER: 														</tr>
+CLIENT -> SERVER: 														<tr>
+CLIENT -> SERVER: 															<td height="100%" valign="top"></td>
+CLIENT -> SERVER: 															<td valign="top" align="left" style="padding-top: 20px;">
+CLIENT -> SERVER: 																<a href="https://bx.harzlabs.ru/?IM_NOTIFY=Y" style="display: inline-block; border-radius: 23px; padding: 0 30px; vertical-align: middle; text-decoration: none; height: 47px; background-color: #2fc6f6;">
+CLIENT -> SERVER: 																	<b style="line-height: 47px;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;color: #fff;">
+CLIENT -> SERVER: 																		Посмотреть																	</b>
+CLIENT -> SERVER: 																</a>
+CLIENT -> SERVER: 															</td>
+CLIENT -> SERVER: 														</tr>
+CLIENT -> SERVER: 													</table>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 										<table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; width: 100%;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td align="right" style="padding: 20px 0 0; text-align: right;">
+CLIENT -> SERVER: 													<a href="https://bx.harzlabs.ru/?IM_SETTINGS=NOTIFY" style="color: #a9adb3;font-size: 13px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;">Изменить настройки уведомлений</a>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 									</td>
+CLIENT -> SERVER: 								</tr>
+CLIENT -> SERVER: 							</table>
+CLIENT -> SERVER: 						</td>
+CLIENT -> SERVER: 					</tr>
+CLIENT -> SERVER: 				</table>
+CLIENT -> SERVER: 			</td>
+CLIENT -> SERVER: 		</tr>
+CLIENT -> SERVER: 	</table>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: ---------alt582628e1be--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SMTP INBOUND: "250 2.0.0 Ok: queued on myt6-016ca1315a73.qloud-c.yandex.net 1653480423-3K8FSewAKE-7200Lkh1"SERVER -> CLIENT: 250 2.0.0 Ok: queued on myt6-016ca1315a73.qloud-c.yandex.net 1653480423-3K8FSewAKE-7200Lkh1
+CLIENT -> SERVER: QUIT
+SMTP INBOUND: "221 2.0.0 Closing connecton"SERVER -> CLIENT: 221 2.0.0 Closing connecton
+Connection: closed

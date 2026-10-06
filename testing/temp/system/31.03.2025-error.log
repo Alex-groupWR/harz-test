@@ -1,0 +1,140 @@
+2025-03-31 08:30:38 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (2002) Connection refused (400)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:52
+#13: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/header.php:1
+#16: require(string)
+	/var/www/vhosts/harzlabs.ru/httpdocs/index.php:2
+----------
+
+2025-03-31 08:30:39 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (2002) Connection refused (400)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:52
+#13: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/header.php:1
+#16: require(string)
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:2
+#17: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#18: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-03-31 09:12:05 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:135
+----------
+
+2025-03-31 14:02:39 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-03-31 15:14:05 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "php" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/media/detail.php:117
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:784
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:724
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:615
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:692
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/media/index.php:38
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-03-31 16:18:56 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:283
+#0: ReCaptchaTwoGoogle::checkReCaptcha
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:142
+#1: ReCaptchaTwoGoogle::checkBxCaptcha
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/twim.recaptchafree/classes/general/recaptchatwogoogle.php:109
+#2: ReCaptchaTwoGoogle::OnVerificContent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/tools.php:5254
+#3: ExecuteModuleEventEx
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:187
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_before.php:19
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog.php:10
+#6: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/header.php:1
+#7: require(string)
+	/var/www/vhosts/harzlabs.ru/httpdocs/personal/index.php:2
+----------
+

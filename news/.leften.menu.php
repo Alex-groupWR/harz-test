@@ -1,0 +1,40 @@
+<?
+$aMenuLinks = array(
+	array(
+		"All news",
+		"/news/",
+		array(),
+		array(),
+		""
+	),
+	array(
+		"About",
+		"/news/o-kompanii/",
+		array(),
+		array(),
+		""
+	),
+	array(
+		"Products",
+		"/news/produkty/",
+		array(),
+		array(),
+		""
+	),
+	array(
+		"Events",
+		"/news/events/",
+		array(),
+		array(),
+		""
+	),
+	array(
+		"Cases",
+		"/news/cases/",
+		array(),
+		array(),
+		""
+	),
+
+);
+?>

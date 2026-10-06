@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+
+.table {
+    text-align: left;
+    background-color: #F9F9F9;
+    border-radius: 12px;
+    font-size: 14px;
+    border-collapse: separate;
+    border: none;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.ord-list li {
+    margin-bottom: 1rem;
+}
+
+.und-list li {
+    margin-bottom: 0.4rem;
+}
+
+th, td {
+    border: none;
+    padding: 20px;
+    text-align: left;
+}
+
+td:first-child, th:first-child {
+    border-right: 1px solid rgb(214, 214, 214); /* только вертикальная граница справа */
+  }
+
+
+img {
+    width: 100%;
+    display: flexbox;
+}
+
+.img40 {
+    width: 40%;
+    height: auto;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.img60 {
+    width: 60%;
+    height: auto;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.img80 {
+    width: 80%;
+    height: auto;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.img100 {
+    width: 100%;
+    height: auto;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.center-position {
+    text-align: center;
+}
+
+.back {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    padding: 36px;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.backgrey {
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    padding: 36px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: left;
+    color: #000000;
+    margin: 1rem 0;
+}
+
+.backblack {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    padding: 36px;
+    border-radius: 12px;
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+    margin: 1rem 0;
+}
+
+.article-new-design .custom-article .custom-div img {
+    margin: 12px 0 24px 0;
+}
+
+.article-new-design .custom-article .custom-div p{
+    font-weight: medium;
+    text-transform: none;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #2D2B37;
+}
+
+.article-new-design .custom-article .custom-div .ord-list {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #2D2B37;
+}
+
+.article-new-design .custom-article .custom-div .backblack .ord-list {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: inherit;
+}
+
+.article-new-design .custom-article .custom-div .und-list {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.4rem 0;
+    padding: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #2D2B37;
+}
+
+.article-new-design .custom-article .custom-div h2 {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #2D2B37;
+}
+
+.article-new-design .custom-article .custom-div h3 {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    color: #2D2B37;
+}
+
+.article-new-design .custom-article .custom-div .backblack h3 {
+    font-weight: bold;
+    color: inherit;
+}
+
+.article-new-design .custom-article .custom-div .card {
+    background-color: #F1F1F1;
+    border: none;
+}
+
+.article-new-design .custom-article .custom-div .backblack .card {
+    background-color: white;
+}
+
+.article-new-design .custom-article .custom-div .backblack .card p {
+    color: #2D2B37;
+}
+
+.article-new-design .custom-article .custom-div .card-black p,
+.article-new-design .custom-article .custom-div .backblack p {
+    color: white;
+}
+
+.article-new-design .custom-article .custom-div .backblack a,
+.article-new-design .custom-article .custom-div .card-black a {
+    color: #a545ee;
+}
+
+.article-new-design .custom-article .custom-div .backblack a:hover,
+.article-new-design .custom-article .custom-div .card-black a:hover {
+    color: #8225c9;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 16px;
+    max-width: 100%;
+    width: max-content; 
+    justify-content: center;
+  }
+
+  .card-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 16px;
+    max-width: 100%;
+    width: max-content; 
+    justify-content: center;
+  }
+
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: start;
+    width: 100%;
+    max-width: 640px;
+  }
+
+    .card-black {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: start;
+    width: 100%;
+    max-width: 640px;
+  }
+
+  .card a {
+    color: #6B1BA9;
+  }
+
+    .card a:hover {
+    color: #A149E6;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 640px;
+    border-radius: 4px;
+  }
+  
+  .card p {
+    font-size: 0.4rem;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #000;
+  }
+
+
+.content-center {
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+
+.greysection {
+    background-color: #fcf9f9;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+li {
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .flex-row {
+        flex-direction: column;
+        align-items: left;
+    } 
+
+    .card {
+        background-color: #f0f0f0;
+    }
+
+    .backgrey {
+        padding: 1.2rem; 
+        margin-bottom: 1.2px;   
+    }
+
+
+    .flex-row {
+        gap: 8px;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img80 {
+        max-width: 100%;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .img80 {
+        max-width: 100%;
+    }
+
+}

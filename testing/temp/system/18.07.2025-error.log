@@ -1,0 +1,422 @@
+2025-07-18 07:23:02 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 09:37:45 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 10:01:04 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 10:22:10 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 10:40:06 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 10:45:33 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 10:50:36 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 12:27:05 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 13:15:11 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-07-18 13:15:45 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-07-18 13:45:28 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:135
+----------
+
+2025-07-18 13:46:05 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:135
+----------
+
+2025-07-18 14:33:04 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 16:41:10 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-18 16:56:47 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/var/www/vhosts/harzlabs.ru/httpdocs/local/php_interface/B24OrderRest.php' (include_path='.:/opt/plesk/php/8.2/share/pear') (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/loader.php:373
+#0: Bitrix\Main\Loader::autoLoad
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/ptrhta/sale.personal.order.list/class.php:1254
+#1: CBitrixPersonalOrderListComponent->obtainDataRest
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/ptrhta/sale.personal.order.list/class.php:1615
+#2: CBitrixPersonalOrderListComponent->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:675
+#3: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#4: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/sale.personal.section/intec.cabinet.rest/parts/orders.php:39
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/sale.personal.section/intec.cabinet.rest/template.php:54
+#6: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#7: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#8: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#9: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#10: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.personal.section/class.php:284
+#11: PersonalOrderSection->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:675
+#12: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/personal-test/index.php:53
+----------
+
+2025-07-18 16:56:54 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/var/www/vhosts/harzlabs.ru/httpdocs/local/php_interface/B24OrderRest.php' (include_path='.:/opt/plesk/php/8.2/share/pear') (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/loader.php:373
+#0: Bitrix\Main\Loader::autoLoad
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/ptrhta/sale.personal.order.list/class.php:1254
+#1: CBitrixPersonalOrderListComponent->obtainDataRest
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/ptrhta/sale.personal.order.list/class.php:1615
+#2: CBitrixPersonalOrderListComponent->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:675
+#3: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#4: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/sale.personal.section/intec.cabinet.rest/parts/orders.php:39
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/sale.personal.section/intec.cabinet.rest/template.php:54
+#6: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#7: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#8: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#9: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#10: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.personal.section/class.php:284
+#11: PersonalOrderSection->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:675
+#12: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/personal-test/index.php:53
+----------
+
+2025-07-18 16:56:56 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/var/www/vhosts/harzlabs.ru/httpdocs/local/php_interface/B24OrderRest.php' (include_path='.:/opt/plesk/php/8.2/share/pear') (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/loader.php:373
+#0: Bitrix\Main\Loader::autoLoad
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/ptrhta/sale.personal.order.list/class.php:1254
+#1: CBitrixPersonalOrderListComponent->obtainDataRest
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/ptrhta/sale.personal.order.list/class.php:1615
+#2: CBitrixPersonalOrderListComponent->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:675
+#3: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#4: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/sale.personal.section/intec.cabinet.rest/parts/orders.php:39
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/sale.personal.section/intec.cabinet.rest/template.php:54
+#6: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#7: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#8: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#9: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#10: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.personal.section/class.php:284
+#11: PersonalOrderSection->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:675
+#12: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/personal-test/index.php:53
+----------
+
+2025-07-18 16:57:00 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/var/www/vhosts/harzlabs.ru/httpdocs/local/php_interface/B24OrderRest.php' (include_path='.:/opt/plesk/php/8.2/share/pear') (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/loader.php:373
+#0: Bitrix\Main\Loader::autoLoad
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/ptrhta/sale.personal.order.list/class.php:1254
+#1: CBitrixPersonalOrderListComponent->obtainDataRest
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/ptrhta/sale.personal.order.list/class.php:1615
+#2: CBitrixPersonalOrderListComponent->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:675
+#3: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#4: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/sale.personal.section/intec.cabinet.rest/parts/orders.php:39
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/sale.personal.section/intec.cabinet.rest/template.php:54
+#6: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#7: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#8: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#9: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#10: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.personal.section/class.php:284
+#11: PersonalOrderSection->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:675
+#12: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/personal-test/index.php:53
+----------
+

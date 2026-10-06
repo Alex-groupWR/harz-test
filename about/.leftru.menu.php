@@ -1,0 +1,74 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О нас", 
+		"/about/#about", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Видео", 
+		"/about/#video", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Команда", 
+		"/about/#team", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"История", 
+		"/about/#history", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Карьера в HARZ Labs", 
+		"/about/#job", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сертификаты", 
+		"/about/#certificates", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Политика в области качества", 
+		"/about/#quality", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/about/#news", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"СМИ о нас", 
+		"/about/#media", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/",
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

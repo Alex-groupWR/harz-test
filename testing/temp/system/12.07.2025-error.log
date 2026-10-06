@@ -1,0 +1,162 @@
+2025-07-12 03:34:48 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-12 13:40:44 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-12 14:25:17 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-12 15:24:48 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-12 16:55:19 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2025-07-12 21:05:33 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news.detail/support_detile_article/template.php:314
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/support/detail.php:26
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+

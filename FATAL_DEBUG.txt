@@ -1,0 +1,85 @@
+Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/tools.php
+            [line] => 5266
+            [function] => StopPayerTypeChange
+        )
+
+    [1] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/compatible/eventcompatibility.php
+            [line] => 671
+            [function] => ExecuteModuleEventEx
+        )
+
+    [2] => Array
+        (
+            [function] => onOrderBeforeSaved
+            [class] => Bitrix\Sale\Compatible\EventCompatibility
+            [type] => ::
+        )
+
+    [3] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/eventmanager.php
+            [line] => 439
+            [function] => call_user_func_array
+        )
+
+    [4] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/eventmanager.php
+            [line] => 375
+            [function] => sendToEventHandler
+            [class] => Bitrix\Main\EventManager
+            [type] => ->
+        )
+
+    [5] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/event.php
+            [line] => 142
+            [function] => send
+            [class] => Bitrix\Main\EventManager
+            [type] => ->
+        )
+
+    [6] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/orderbase.php
+            [line] => 1425
+            [function] => send
+            [class] => Bitrix\Main\Event
+            [type] => ->
+        )
+
+    [7] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/orderbase.php
+            [line] => 1096
+            [function] => callEventOnBeforeOrderSaved
+            [class] => Bitrix\Sale\OrderBase
+            [type] => ->
+        )
+
+    [8] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/order.php
+            [line] => 2168
+            [function] => save
+            [class] => Bitrix\Sale\OrderBase
+            [type] => ->
+        )
+
+    [9] => Array
+        (
+            [file] => /var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code
+            [line] => 14
+            [function] => save
+            [class] => Bitrix\Sale\Order
+            [type] => ->
+        )
+
+)

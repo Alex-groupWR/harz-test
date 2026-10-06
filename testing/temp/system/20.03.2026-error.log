@@ -1,0 +1,198 @@
+2026-03-20 01:35:03 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Sale\Internal\OrderTable" not found (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:436
+#0: fixPersonTypeCrmConflict
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/tools.php:5266
+#1: ExecuteModuleEventEx
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/compatible/eventcompatibility.php:671
+#2: Bitrix\Sale\Compatible\EventCompatibility::onOrderBeforeSaved
+	
+#3: call_user_func_array
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/eventmanager.php:439
+#4: Bitrix\Main\EventManager->sendToEventHandler
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/eventmanager.php:375
+#5: Bitrix\Main\EventManager->send
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/event.php:142
+#6: Bitrix\Main\Event->send
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/orderbase.php:1425
+#7: Bitrix\Sale\OrderBase->callEventOnBeforeOrderSaved
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/orderbase.php:1096
+#8: Bitrix\Sale\OrderBase->save
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/order.php:2168
+#9: Bitrix\Sale\Order->save
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:14
+#10: eval
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php:135
+#11: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/php_command_line.php:2
+----------
+
+2026-03-20 01:51:50 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `SORT` (SORT) for \Bitrix\Sale\Internals\OrderPropsValue Entity. (100)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:1892
+#2: Bitrix\Main\ORM\Query\Query->addToOrderChain
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:2495
+#3: Bitrix\Main\ORM\Query\Query->buildQuery
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#5: Bitrix\Main\ORM\Data\DataManager::getList
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:21
+#6: eval
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php:135
+#7: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/php_command_line.php:2
+----------
+
+2026-03-20 01:54:16 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "resLoc" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:39
+#0: eval
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/php_command_line.php:2
+----------
+
+2026-03-20 01:58:30 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Using $this when not in object context (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:12
+#0: eval
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/php_command_line.php:2
+----------
+
+2026-03-20 01:58:54 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `TYPE` (TYPE) for \Bitrix\Sale\Internals\OrderPropsValue Entity. (100)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#5: Bitrix\Main\ORM\Data\DataManager::getList
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:36
+#6: eval
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/php_command_line.php:135
+#7: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/php_command_line.php:2
+----------
+
+2026-03-20 16:59:41 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:26
+----------
+
+2026-03-20 17:29:21 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:26
+----------
+
+2026-03-20 22:09:49 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "php" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/media/detail.php:117
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:842
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:951
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1192
+#8: CMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/media/index.php:38
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2026-03-20 22:10:33 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "php" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/media/detail.php:117
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:842
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:951
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1192
+#8: CMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/media/index.php:38
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2026-03-20 23:31:00 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/new_news/bitrix/news.detail/.default/template.php:74
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:842
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:951
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news.detail/component.php:515
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1192
+#8: CMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/new_news/detail.php:59
+#9: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#14: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:622
+#15: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:699
+#16: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1192
+#17: CMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/news/index.php:32
+#18: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#19: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+

@@ -1,0 +1,22 @@
+{
+  "actual": {
+    "IBLOCK_ID": 71,
+    "ru": 5211,
+    "en": 5212
+  },
+  "part-actual": {
+    "IBLOCK_ID": 72,
+    "ru": 5213,
+    "en": 5214
+  },
+  "close": {
+    "IBLOCK_ID": 74,
+    "ru": 5217,
+    "en": 5218
+  },
+  "config": {
+    "IBLOCK_ID": 73,
+    "ru": 5215,
+    "en": 5216
+  }
+}

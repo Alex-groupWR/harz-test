@@ -1,0 +1,101 @@
+2025-01-14 12:01:04 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\Exception] 
+Error connecting to authorization server: CONNECTION_ERROR (400)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/rest.php:336
+#0: SProduction\Integration\Rest::execute
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/rest.php:404
+#1: SProduction\Integration\Rest::batch
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/portaldata.php:122
+#2: SProduction\Integration\PortalData::getDealInfo
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/syncdeal.php:65
+#3: SProduction\Integration\SyncDeal::runSync
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/scripts/bgr_run.php:89
+#4: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/sprod_integr_bgr_run.php:1
+----------
+
+2025-01-14 12:01:04 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\Exception] 
+Error connecting to authorization server: CONNECTION_ERROR (400)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/rest.php:336
+#0: SProduction\Integration\Rest::execute
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/offlineevents.php:50
+#1: SProduction\Integration\OfflineEvents::getChangedDeals
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/offlineevents.php:74
+#2: SProduction\Integration\OfflineEvents::processEvents
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/scripts/bgr_run.php:97
+#3: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/sprod_integr_bgr_run.php:1
+----------
+
+2025-01-14 12:01:06 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\Exception] 
+Error connecting to authorization server: CONNECTION_ERROR (400)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/rest.php:336
+#0: SProduction\Integration\Rest::execute
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/offlineevents.php:50
+#1: SProduction\Integration\OfflineEvents::getChangedDeals
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/offlineevents.php:74
+#2: SProduction\Integration\OfflineEvents::processEvents
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/scripts/bgr_run.php:97
+#3: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/sprod_integr_bgr_run.php:1
+----------
+
+2025-01-14 12:01:08 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\Exception] 
+Error connecting to authorization server: CONNECTION_ERROR (400)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/rest.php:336
+#0: SProduction\Integration\Rest::execute
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/offlineevents.php:50
+#1: SProduction\Integration\OfflineEvents::getChangedDeals
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/lib/offlineevents.php:74
+#2: SProduction\Integration\OfflineEvents::processEvents
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sproduction.integration/scripts/bgr_run.php:97
+#3: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/sprod_integr_bgr_run.php:1
+----------
+
+2025-01-14 12:37:25 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-14 12:37:57 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-14 12:38:40 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-14 15:11:56 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2025-01-14 19:22:09 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "php" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/media/section.php:107
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:784
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:724
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:615
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:692
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/media/index.php:38
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+

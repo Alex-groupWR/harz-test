@@ -1,0 +1,39 @@
+<?php
+$aMenuLinks = array(
+    array(
+        "Company",
+        "/about/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "Products",
+        "/products/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "Support",
+        "/support/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "Dealers",
+        "/dealers/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "News",
+        "/news/",
+        array(),
+        array(),
+        ""
+    )
+);
+?>

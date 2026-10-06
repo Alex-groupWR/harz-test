@@ -1,0 +1,54 @@
+User-Agent: *
+Disallow: */index.php
+Disallow: /bitrix/
+Disallow: /local/
+Disallow: /*show_include_exec_time=
+Disallow: /*show_page_exec_time=
+Disallow: /*show_sql_stat=
+Disallow: /*bitrix_include_areas=
+Disallow: /*clear_cache=
+Disallow: /*clear_cache_session=
+Disallow: /*ADD_TO_COMPARE_LIST
+Disallow: /*ORDER_BY
+Disallow: /*PAGEN
+Disallow: /*?print=
+Disallow: /*&print=
+Disallow: /*print_course=
+Disallow: /*?action=
+Disallow: /*&action=
+Disallow: /*register=
+Disallow: /*forgot_password=
+Disallow: /*change_password=
+Disallow: /*login=
+Disallow: /*logout=
+Disallow: /*auth=
+Disallow: /*backurl=
+Disallow: /*back_url=
+Disallow: /*BACKURL=
+Disallow: /*BACK_URL=
+Disallow: /*back_url_admin=
+Disallow: /*?utm_source=
+Disallow: /*?bxajaxid=
+Disallow: /*&bxajaxid=
+Disallow: /*?view_result=
+Disallow: /*&view_result=
+
+# --- ЗАЦИКЛИВАНИЕ: блокировка дублей параметров и путей ---
+Disallow: /*?*?
+Disallow: /*&*&*
+Disallow: /support/support/
+Disallow: */support/support/
+Disallow: */support/*support*
+
+# --- Ресурсы шаблона для корректного рендеринга ботами ---
+Allow: /bitrix/components/
+Allow: /bitrix/cache/
+Allow: /bitrix/js/
+Allow: /bitrix/templates/
+Allow: /bitrix/panel/
+Allow: /local/templates/
+
+# --- Директива для Яндекса (только GET-параметры) ---
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&bxajaxid
+
+Sitemap: https://harzlabs.ru/sitemap.xml

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "langs";
+$arDirProperties = Array(
+
+);
+?>

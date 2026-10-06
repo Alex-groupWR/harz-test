@@ -1,0 +1,68 @@
+dealId: 28973
+Array
+(
+    [0] => Array
+        (
+            [ID] => 132444
+            [OWNER_ID] => 28973
+            [OWNER_TYPE] => D
+            [PRODUCT_ID] => 234169
+            [PRODUCT_NAME] => HARZ Labs Dental Cast Cherry PRO 1 кг
+            [ORIGINAL_PRODUCT_NAME] => HARZ Labs Dental Cast Cherry PRO 1 кг
+            [PRODUCT_DESCRIPTION] => 
+            [PRICE] => 11990
+            [PRICE_EXCLUSIVE] => 11990
+            [PRICE_NETTO] => 11990
+            [PRICE_BRUTTO] => 11990
+            [PRICE_ACCOUNT] => 11990.00000000
+            [QUANTITY] => 1
+            [DISCOUNT_TYPE_ID] => 1
+            [DISCOUNT_RATE] => 0
+            [DISCOUNT_SUM] => 0
+            [TAX_RATE] => 0
+            [TAX_INCLUDED] => N
+            [CUSTOMIZED] => Y
+            [MEASURE_CODE] => 796
+            [MEASURE_NAME] => шт
+            [SORT] => 0
+            [XML_ID] => sale_basket_56520
+            [TYPE] => 4
+            [STORE_ID] => 
+            [RESERVE_ID] => 
+            [DATE_RESERVE_END] => 
+            [RESERVE_QUANTITY] => 
+        )
+
+    [1] => Array
+        (
+            [ID] => 132445
+            [OWNER_ID] => 28973
+            [OWNER_TYPE] => D
+            [PRODUCT_ID] => 60300
+            [PRODUCT_NAME] => Доставка СДЕК (до двери)
+            [ORIGINAL_PRODUCT_NAME] => Доставка СДЕК (до двери)
+            [PRODUCT_DESCRIPTION] => 
+            [PRICE] => 1984.1
+            [PRICE_EXCLUSIVE] => 1984.1
+            [PRICE_NETTO] => 1984.1
+            [PRICE_BRUTTO] => 1984.1
+            [PRICE_ACCOUNT] => 1984.10000000
+            [QUANTITY] => 1
+            [DISCOUNT_TYPE_ID] => 1
+            [DISCOUNT_RATE] => 0
+            [DISCOUNT_SUM] => 0
+            [TAX_RATE] => 0
+            [TAX_INCLUDED] => Y
+            [CUSTOMIZED] => Y
+            [MEASURE_CODE] => 796
+            [MEASURE_NAME] => шт
+            [SORT] => 0
+            [XML_ID] => sale_basket_56649
+            [TYPE] => 1
+            [STORE_ID] => 
+            [RESERVE_ID] => 
+            [DATE_RESERVE_END] => 
+            [RESERVE_QUANTITY] => 
+        )
+
+)

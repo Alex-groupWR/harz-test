@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"About Us", 
+		"/about/#about", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Video", 
+		"/about/#video", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Team", 
+		"/about/#team", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"History", 
+		"/about/#history", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Career", 
+		"/about/#job", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Certificates", 
+		"/about/#certificates", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"News", 
+		"/about/#news", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Contacts", 
+		"/about/#offices", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,68 @@
+<?
+$aMenuLinks = Array(
+/*
+    Array(
+        "Academy",
+        "/academy/",
+        Array(),
+        Array(),
+        ""
+    ),*/
+	Array(
+		"Print settings", 
+		"/support/#print-settings", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Our products", 
+		"/support/#ourProducts", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Finishing", 
+		"/support/#afterWork", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Printing", 
+		"/support/#print", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Materials overview", 
+		"/support/#lookingMaterials", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Purchase", 
+		"/support/#bye", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Shipping", 
+		"/support/#delivery", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Support", 
+		"/support/#supportService", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

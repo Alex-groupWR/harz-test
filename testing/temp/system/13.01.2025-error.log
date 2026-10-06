@@ -1,0 +1,67 @@
+2025-01-13 04:52:03 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+intval() expects at least 1 argument, 0 given (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/activities/bitrix/codeactivity/codeactivity.php(25) : eval()'d code:6
+#0: intval
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/activities/bitrix/codeactivity/codeactivity.php(25) : eval()'d code:6
+#1: eval
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/activities/bitrix/codeactivity/codeactivity.php:25
+#2: CBPCodeActivity->execute
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/bizproc/classes/general/workflow.php:546
+#3: CBPWorkflow->runQueuedItem
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/bizproc/classes/general/workflow.php:509
+#4: CBPWorkflow->runStep
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/bizproc/classes/general/workflow.php:493
+#5: CBPWorkflow->runQueue
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/bizproc/classes/general/workflow.php:230
+#6: CBPWorkflow->start
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/bizproc/classes/general/document.php:343
+#7: CBPDocument::startWorkflow
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/bizproc/lib/automation/engine/runtime.php:160
+#8: Bitrix\Bizproc\Automation\Engine\Runtime->runTemplates
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/bizproc/lib/automation/engine/runtime.php:297
+#9: Bitrix\Bizproc\Automation\Engine\Runtime->runDocumentStatus
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/bizproc/lib/automation/engine/runtime.php:252
+#10: Bitrix\Bizproc\Automation\Engine\Runtime->onDocumentAdd
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/crm/lib/automation/factory.php:252
+#11: Bitrix\Crm\Automation\Factory::runOnAdd
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/crm/lib/automation/starter.php:111
+#12: Bitrix\Crm\Automation\Starter->runOnAdd
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/crm/lib/entitymanagefacility.php:915
+#13: Bitrix\Crm\EntityManageFacility->runAutomation
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/crm/lib/entitymanagefacility.php:563
+#14: Bitrix\Crm\EntityManageFacility->registerDeal
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/crm/lib/order/dealcreator.php:32
+#15: Bitrix\Crm\Order\DealCreator->create
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/crm/lib/order/orderdealsynchronizer.php:178
+#16: Bitrix\Crm\Order\OrderDealSynchronizer->createDealFromOrder
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/crm/lib/order/order.php:250
+#17: Bitrix\Crm\Order\Order->onAfterSave
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/orderbase.php:1181
+#18: Bitrix\Sale\OrderBase->save
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/sale/lib/order.php:2176
+#19: Bitrix\Sale\Order->save
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.order.ajax/class.php:6316
+#20: SaleOrderAjax->saveOrder
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.order.ajax/class.php:4736
+#21: SaleOrderAjax->saveOrderAjaxAction
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.order.ajax/class.php:6127
+#22: SaleOrderAjax->doAction
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.order.ajax/class.php:6385
+#23: SaleOrderAjax->executeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:668
+#24: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/components/bitrix/sale.order.ajax/ajax.php:44
+----------
+
+2025-01-13 11:46:56 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:135
+----------
+
+2025-01-13 16:00:13 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+

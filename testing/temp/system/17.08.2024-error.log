@@ -1,0 +1,267 @@
+2024-08-17 09:26:54 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "php" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/media/detail.php:117
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:784
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:724
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:615
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:692
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1195
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/media/index.php:38
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:178
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2024-08-17 09:32:37 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "php" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/media/detail.php:117
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:784
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:724
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:615
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:692
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1195
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/media/index.php:38
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:178
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2024-08-17 10:14:13 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+
+2024-08-17 11:04:06 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+
+2024-08-17 11:18:57 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "php" (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/news/media/section.php:107
+#0: include
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:784
+#3: CBitrixComponent->showComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:724
+#4: CBitrixComponent->includeComponentTemplate
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/components/bitrix/news/component.php:336
+#5: include(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:615
+#6: CBitrixComponent->__includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/component.php:692
+#7: CBitrixComponent->includeComponent
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/classes/general/main.php:1195
+#8: CAllMain->IncludeComponent
+	/var/www/vhosts/harzlabs.ru/httpdocs/media/index.php:38
+#9: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/urlrewrite.php:178
+#10: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/urlrewrite.php:2
+----------
+
+2024-08-17 11:53:58 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+
+2024-08-17 12:42:24 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+
+2024-08-17 13:31:01 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+
+2024-08-17 14:18:36 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+
+2024-08-17 14:31:05 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2024-08-17 14:31:34 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2024-08-17 15:07:45 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+
+2024-08-17 15:37:23 - Host: harzlabs.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 44056576 bytes) (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/templates/hlab_store/components/bitrix/catalog.item/main_page/template.php:133
+----------
+
+2024-08-17 15:56:57 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+
+2024-08-17 16:51:26 - Host: harzlabs.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function CanDoOperation() on string (0)
+/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/admin/cache.php:20
+#0: require_once
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/cache.php:1
+#1: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/class/searchQuery.php:4
+#2: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/local/php_interface/init.php:118
+#3: include_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include.php:136
+#4: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/include/prolog_admin_before.php:39
+#5: require_once(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/modules/main/interface/desktop.php:10
+#6: require(string)
+	/var/www/vhosts/harzlabs.ru/bx.harzlabs.ru/bitrix/admin/index.php:2
+----------
+

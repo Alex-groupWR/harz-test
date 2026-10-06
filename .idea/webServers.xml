@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="252b60af-1336-46e5-80d5-ed7cf42430fd" name="harz" url="http://harzlabs.ru">
+        <fileTransfer rootFolder="/httpdocs" accessType="FTPS" host="harzlabs.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
