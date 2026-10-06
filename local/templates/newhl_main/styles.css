@@ -1,0 +1,131 @@
+.top-fixed-banner {
+	height: 74px;
+    position: relative;
+    z-index: 999;
+}
+.top-fixed-banner__panel {
+	box-sizing: border-box;
+	color: #fff;
+	height: 74px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 0;
+	background: #2d2b37;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 000;
+	* {
+		box-sizing: border-box;
+	}
+}
+.top-fixed-banner.is-hidden {
+	display: none !important;
+}
+.top-fixed-banner__inner {
+	display: flex;
+	align-items: center;
+	gap: 52px;
+}
+.top-fixed-banner__text {
+	font-weight: 600;
+	/*font-size: 30px;*/
+	font-size: 24px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.top-fixed-banner__btn {
+	border-radius: 4px;
+	padding: 0 20px;
+	height: 41px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 105%;
+	letter-spacing: 0.05em;
+	color: #2d2b37;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition-property: color, background-color;
+	transition-duration: .3s;
+	background: #3adac0;
+	text-decoration: none !important;
+	&:hover {
+		background-color: #9159BD;
+		color: #fff;
+	}
+}
+.top-fixed-banner__close {
+	background-color: transparent;
+	padding: 0;
+	border:none;
+	line-height: 0;
+}
+.top-fixed-banner__logo-desktop {
+	transform: translateY(5%)
+}
+.top-fixed-banner__logo-mob {
+	display: none;
+}
+.top-fixed-banner__text-btn {display: flex; align-items: center; gap: 52px;}
+@media (max-width: 1100px) {
+	.top-fixed-banner {
+		height: 121px;
+	}
+	.top-fixed-banner__inner {
+		gap: 2.5vw;
+		height: 121px;
+		/*svg {
+			width: 100%;
+			height: auto;
+		}*/
+	}
+	.top-fixed-banner__text-btn {gap: 2.5vw;}
+	.top-fixed-banner__text {
+		font-size: 16px;
+	}
+}
+@media (max-width: 767px) {
+	.top-fixed-banner {
+		height: 115px;
+	}
+	.top-fixed-banner__panel {
+		height: 115px;
+	}
+	.top-fixed-banner__inner {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		width: 100%;
+		padding: 24px 20px 0 16px;
+		gap: 0;
+	}
+	.top-fixed-banner__text {
+		font-size: 14px;
+		svg {width: 170px; height: auto}
+	}
+	.top-fixed-banner__logo-desktop {
+		display: none;
+	}
+	.top-fixed-banner__logo-mob {
+		display: unset;
+	}
+	.top-fixed-banner__close {
+		position: absolute;
+		right: 20px;
+		top: 18px;
+	}
+	.top-fixed-banner__text-btn {
+		margin-top: 8px;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.top-fixed-banner__btn {
+		height: 28px;
+		font-size: 12px;
+	}
+}

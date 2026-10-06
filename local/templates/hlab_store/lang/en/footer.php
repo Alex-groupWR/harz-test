@@ -1,0 +1,19 @@
+<?php
+$MESS['Become a reseller'] = 'Become a reseller';
+$MESS['Company'] = 'Company';
+$MESS['Products'] = 'Products';
+$MESS['POLICY'] = 'By signing up, you agree to the processing of personal data and agree privacy policy';
+$MESS['All Rights Reserved'] = 'All Rights Reserved';
+$MESS['Terms of Service'] = 'Terms of Service';
+$MESS['Privacy Policy'] = 'Privacy Policy';
+$MESS['Your email'] = 'Your email';
+$MESS['Please fill in all fields'] = 'Please fill in all fields';
+$MESS['Company name'] = 'Company name';
+$MESS['Country'] = 'Country';
+$MESS['Site'] = 'Site';
+$MESS['Contact person'] = 'Contact person';
+$MESS['Registration'] = 'Registration';
+$MESS['Ask your question'] = 'Ask your question';
+$MESS['Your name'] = 'Your name';
+$MESS['Your message'] = 'Your message';
+$MESS['Send'] = 'Send';

@@ -1,0 +1,125 @@
+.banner-popup-after {
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 921px;
+    padding: 83px 251px 63px 251px;
+    z-index: 99999;
+}
+
+.banner-popup-after-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(42, 17, 55, 0.25);
+    backdrop-filter: blur(7.5px);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+.banner-popup-after-close {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-popup-after-close:active,
+.banner-popup-after-close:focus {
+    border: none;
+    outline: none;
+    opacity: 0.8;
+}
+
+.banner-popup-after .button {
+    text-decoration: none;
+    background: #6E368C;
+    border-radius: 10px;
+    padding: 27px 37px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    color: #FFFFFF;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.banner-popup-after .button:hover {
+    opacity: 0.8;
+}
+
+.banner-popup-after-descr {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 52px;
+    color: #000000;
+}
+
+.banner-popup-after-img {
+    max-width: 175px;
+    margin-bottom: 35px;
+}
+
+.banner-popup-after-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 11px;
+
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .banner-popup-after {
+        padding: 64px;
+        max-width: 98vw;
+    }
+
+    .banner-popup-after-close {
+        top: 16px;
+        right: 16px;
+    }
+
+    .banner-popup-after-close svg {
+        width: 16px;
+        display: block;
+    }
+
+    .banner-popup-after-img {
+        max-width: 64px;
+        margin-bottom: 16px;
+    }
+
+    .banner-popup-after-title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .banner-popup-after-descr {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+
+    .banner-popup-after .button {
+        font-size: 24px;
+        line-height: 13px;
+    }
+}

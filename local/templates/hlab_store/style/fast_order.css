@@ -1,0 +1,377 @@
+.fast_order {
+    margin-left: 0 !important;
+    padding-top: 20px;
+}
+
+.fast_order .cards-block {
+    flex-direction: column;
+}
+
+.fast_order__table {
+    display: table !important;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 32px;
+}
+
+.fast_order .dinamic-block {
+    position: initial !important;
+    display: block !important;
+}
+
+.fast_order__list-row-title {
+    background: #40344A;
+}
+
+.fast_order__list-row {
+    display: table-row;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.fast_order__product-cell {
+    padding: 11px 9px;
+    font-size: 12px;
+    line-height: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.fast_order__list-row-title .fast_order__product-cell {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fast_order__product-link,
+.fast_order__product-link a,
+.fast_order__product-cell__scope span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: fit-content;
+    padding-bottom: 0 !important;
+    font-weight: 700;
+    font-size: 12px !important;
+    line-height: 15px;
+
+    color: #40344A !important;
+}
+
+.fast_order__product-cell__scope span {
+    font-weight: 500;
+}
+
+.fast_order__product-link a:hover {
+    color: var(--harzlabs_base) !important;
+}
+
+.fast_order__product-cell__scope {
+    white-space: initial;
+    max-width: 200px;
+}
+
+.fast_order__product-cell__color .product-item-scu-item-color-block {
+    width: 18px;
+    height: 18px;
+    position: initial;
+    border-radius: 100%;
+    padding: 0;
+    outline-width: 1px !important;
+    outline-color: #F2F2F2 !important;
+}
+
+.fast_order__product-cell__color .product-item-scu-item-color {
+    width: 18px;
+    height: 18px;
+    position: initial;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.fast_order__product-cell__color .product-item-scu-item-color-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: none;
+    width: fit-content;
+}
+
+.fast_order__product-cell__color > .intec-grid,
+.fast_order__product-cell__weight > .intec-grid,
+.fast_order__product-cell__price > .intec-grid,
+.fast_order__product-cell__quantity > .intec-grid {
+    justify-content: center;
+}
+
+.fast_order__product-cell__color .fast_order__color-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.fast_order__product-cell__color .product-item-scu-item-list {
+    display: flex;
+    justify-content: center;
+}
+
+.fast_order__product-cell__color .product-item-scu-item-color-block:hover,
+.fast_order__product-cell__color .product-item-scu-item-color-container.selected .product-item-scu-item-color-block {
+    outline-width: 1px;
+    padding: 0;
+    outline-color: #40344A !important;
+}
+
+.fast_order__product {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.fast_order__product-cell__weight .product-item-scu-item-text-container {
+   padding: 0;
+}
+
+.fast_order__product-cell__weight .product-item-scu-item-text-container .product-item-scu-item-text-block {
+    background: #F9F9FB;
+    border: 1px solid #F2F2F2;
+    outline: none;
+    padding: 10px 6px;
+}
+
+.fast_order__product-cell__weight .product-item-scu-item-text-container .product-item-scu-item-text-block .product-item-scu-item-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #40344A;
+}
+
+.fast_order__product-cell__weight .product-item-scu-item-text-container.selected .product-item-scu-item-text-block .product-item-scu-item-text,
+.fast_order__product-cell__weight .product-item-scu-item-text-container:hover .product-item-scu-item-text-block .product-item-scu-item-text {
+    color: #40344A;
+    font-weight: 700;
+}
+
+.fast_order__product-cell__weight .product-item-scu-item-list {
+    display: flex;
+    justify-content: center;
+}
+
+.fast_order__product-cell__weight .product-item-scu-item-list li {
+    width: 100%;
+}
+
+.fast_order__product-cell__price .product-item-price-current {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #40344A;
+}
+
+.fast_order__product-cell__quantity .product-item-amount {
+    display: flex;
+    justify-content: center;
+}
+
+.fast_order__product-cell__quantity .product-item-amount .product-item-amount-field-container {
+    background: #FFFFFF;
+    border: 1px solid #40344A;
+    border-radius: 29px;
+    PADDING: 10px;
+    margin: 0;
+    width: fit-content;
+    justify-content: center;
+}
+
+.fast_order__product-cell__quantity .product-item-amount .product-item-amount-field-container .product-item-amount-field-btn-minus,
+.fast_order__product-cell__quantity .product-item-amount .product-item-amount-field-container .product-item-amount-field-btn-plus{
+    background: none;
+    min-width: 8px;
+    height: 20px;
+}
+
+.fast_order__product-cell__quantity .product-item-amount .product-item-amount-field-block {
+    -webkit-box-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+}
+
+.fast_order__product-cell__quantity .product-item-amount .product-item-amount-field-block .product-item-amount-field {
+    width: initial;
+    height: initial;
+    display: block;
+    max-width: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #40344A;
+}
+
+.fast_order__product-cell__name {
+    white-space: initial;
+    max-width: 250px;
+}
+
+.fast_order__product-cell__scope {
+    white-space: initial;
+    max-width: 153px;
+}
+
+.fast_order__cart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fast_order__cart .btn {
+    background-color: #9159BD !important;
+    padding: 16px 107px;
+    border: none !important;
+    border-radius: 0;
+    outline: none !important;
+}
+
+.fast_order__cart .btn:hover {
+    opacity: 0.8;
+}
+
+.popup-window-buttons .btn {
+    background-color: #9159BD !important;
+    border: none !important;
+}
+
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-wrap {
+    padding-bottom: 20px;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-row {
+    display: table-row;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    transition: 0.3s;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-row:hover {
+    box-shadow: 0px 8px 20px rgba(27, 30, 37, 0.08);
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-row-title {
+    background: #FBFCFD;
+    box-shadow: none !important;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-row-title .sale-personal-profile-list-cell {
+    color: #808080;
+    white-space: nowrap;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-arrow-wrap {
+    font-size: 0;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-arrow {
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    text-align: center;
+    font-size: 0;
+    vertical-align: middle;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-arrow-down {
+    transform: rotate(180deg);
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-cell {
+    display: table-cell;
+    padding: 15px 30px;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 18px;
+    color: #404040;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-cell.sale-personal-profile-list-cell-edit {
+    padding: 15px 5px;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-cell-name {
+    width: 100%;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-button {
+    text-decoration: none;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-button-delete {
+    display:block;
+    width: 16px;
+    color: #b0b0b0;
+    transition: 0.3s;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-button-delete:hover {
+    color: #404040;
+}
+.ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-empty {
+    font-size: 16px;
+    color: #ff0000;
+}
+@media all and (max-width: 980px) {
+    .ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-cell {
+        padding: 10px 10px;
+    }
+}
+@media all and (max-width: 800px) {
+    .ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-row-title .sale-personal-profile-list-cell {
+        white-space: normal;
+    }
+    .ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-arrow-wrap {
+        display: none;
+    }
+}
+@media all and (max-width: 550px) {
+    .ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-cell {
+        padding: 10px 5px;
+        font-size: 11px;
+    }
+    .ns-bitrix.c-sale-personal-profile-list.c-sale-personal-profile-list-default .sale-personal-profile-list-cell-date {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .fast_order__table {
+        display: flex !important;
+    }
+
+    .fast_order__list-row-title {
+        display: none;
+    }
+
+    .fast_order__product {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fast_order__product-cell__weight .product-item-scu-item-list {
+        min-width: 200px;
+    }
+
+    .fast_order__product-link {
+        font-size: 16px !important;
+    }
+}
+
+

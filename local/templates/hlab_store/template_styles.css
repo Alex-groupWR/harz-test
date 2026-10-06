@@ -1,0 +1,221 @@
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current:hover {
+      background-color: #7A43A5;
+    border-color: #7A43A5;
+}
+@media (max-width: 540px) {
+    .page-section.text-page .news-feed .new-block .text-new {
+        height: auto;
+		padding-bottom: 18px;
+    }
+	.page-section.text-page .news-feed .new-block .img-new {
+		background-size: contain !important;
+	}
+	.page-section.text-page .news-feed .new-block .smi-logo {
+		height: 46px;
+		max-height: unset;
+		object-fit: contain;
+		object-position: left;
+	}
+	.page-section.text-page .news-feed .new-block .date {
+		font-size: 14px;
+	}
+}
+@media (max-width: 540px) {
+	.holidays-banner div.holidays-main, .holidays-banner div {
+		font-size: 10px;
+	}
+	.holidays-banner div.holidays-main {
+		margin-bottom: 0;
+	}
+	.navbar:has(+ .holidays-banner) {
+		margin-bottom: 0
+	}
+	.holidays-banner {
+		padding: 4px 0
+	}
+}
+
+.page-section--contacts p {
+	color: #000 !important;
+	font-size: 12px !important;
+}
+.page-section--contacts h2 {
+	color: #000 !important;
+	font-size: 22px !important;
+}
+.page-section--contacts  .main.container{
+	margin-left:auto!important;
+	margin-right:auto!important;
+}
+.container-7246 img {
+max-width: 100%;
+object-fit: contain;
+}
+
+.rerow {
+     display: flex;
+    align-items: flex-start;
+    margin-bottom: 36px;
+    margin-top: 32px;
+}
+
+.rerow h2 {
+line-height: initial;
+margin-bottom: 16px;
+}
+
+.container-7246 ol {
+list-style: auto;
+    font-weight: bold;
+    padding-left: 18px;
+    font-size: 10pt;
+
+}
+
+@media (max-width: 1200px) {
+.rerow {
+flex-direction: column;
+}
+
+.rerow img {
+ margin-bottom: 16px;
+}
+}
+@media (max-width: 539px) {
+    .wrapperSlidesProduct img {
+        width: auto;
+    }
+}
+.top-image-banner {
+	display: flex;
+    justify-content: center;
+  overflow: hidden;
+	height: 100px;
+}
+.top-image-banner img {
+		width: auto;
+		height: auto
+	}
+@media (min-width: 2000px) {
+	.top-image-banner img {
+		width: 100%;
+		height: auto
+	}
+}
+@media (max-width: 480px) {
+.top-image-banner {
+		height: 80px
+	}
+}
+.bx-soa-pickup-list.main {
+	min-height: unset
+}
+.job-banner {
+    min-height: 361px;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.job-banner__image {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.job-banner__content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: flex-start;
+    gap: 40px;
+    padding: 46px;
+	height: 100%;
+	flex-grow: 1;
+}
+.job-banner__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    max-width: 514px;
+    margin-bottom: 30px;
+}
+.job-banner__button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #6b1ba9;
+    border-radius: 4px;
+    padding: 12px 24px;
+    height: 42px;
+    background: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.job-banner__features {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 66px;
+}
+@media (max-width: 992px) {
+	.job-banner__content {
+		padding: 28px;
+	}
+	.job-banner__features {
+		gap: 48px;
+	}
+}
+@media (max-width: 480px) {
+	.job-banner {
+		min-height: unset;
+		align-items: center;
+		text-align: center;
+	}
+	.job-banner__content {
+		padding: 28px 12px;
+		gap: 18px;
+	}
+	.job-banner__features {
+		gap: 8px;
+		flex-direction: column;
+		align-items: center;
+		font-size: 14px;
+		line-height: 105%;
+	}
+	.job-banner__title {
+		font-size: 24px;
+		line-height: 107%;
+	}
+	.job-banner__button {
+		font-weight: 700;
+		font-size: 12px;
+		height: 34px;
+		width: 100%;
+	}
+}
+.header-showed .fixtable-fixed {
+    height: auto !important;
+}
+/*.fixtable--primary .fixtable-fixed {
+    background-color: #F9F9F9;
+    color: #212529;
+}*/
+.wrapperSlidesProduct img {
+	object-fit: contain;
+	object-position: center
+}
